@@ -1,0 +1,128 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml">
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Styles/Color.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+    
+    <!--#region butTop-->
+    <Style x:Key="butTop" TargetType="Button">
+        <Setter Property="Background" Value="Transparent"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type Button}">
+                    <Border Width = "{TemplateBinding Width}"
+                            Height= "{TemplateBinding Height}"
+                            Background="{TemplateBinding Background}">
+                        <ContentPresenter HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"/>
+                    </Border>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+        <Style.Triggers>
+            <Trigger Property="IsMouseOver" Value="True">
+                <Setter Property="Effect">
+                    <Setter.Value>
+                        <DropShadowEffect Color="#FFF1BE31" Opacity="0.5" ShadowDepth="0" BlurRadius="20" />
+                    </Setter.Value>
+                </Setter>
+            </Trigger>
+        </Style.Triggers>
+    </Style>
+    <!--#endregion-->
+
+    <!--#region butForm-->
+    <Style x:Key="butForm" TargetType="Button">
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border"
+                        BorderBrush="#FFBD8B1A"
+                        BorderThickness="2"
+                        Background="#FFF1BE31">
+                        <Label Content="{TemplateBinding Content}"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="{TemplateBinding FontSize}"
+                           Foreground="#FF6D5019"
+                           FontFamily="Calibri"
+                           FontWeight="Black"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="#FFEEDBA0"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--#endregion-->
+
+    <!--#region butFormDarc-->
+    <Style x:Key="butFormDark" TargetType="Button">
+        <Setter Property="Foreground" Value="#FFF2D260"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border"
+                            BorderThickness="0"
+                            CornerRadius="5"
+                            Background="#FF4E515A">
+                       
+                        <Label Content="{TemplateBinding Content}"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               FontSize="{TemplateBinding FontSize}"
+                               Foreground="{TemplateBinding Foreground}"
+                               FontFamily="Calibri"
+                               FontWeight="Black"/>
+                        <Border.Effect>
+                            <DropShadowEffect ShadowDepth="0" Color="#FFBD8B1A"/>
+                        </Border.Effect>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Effect">
+                                <Setter.Value>
+                                    <DropShadowEffect ShadowDepth="0" Color="#FFEEDBA0" BlurRadius="10" />
+                                </Setter.Value>
+                            </Setter>
+                            <Setter Property="Foreground" Value="#FFEEDBA0"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--#endregion-->
+
+    <!--#region butFormBrownMono-->
+    <Style x:Key="butFormBrownMono" TargetType="Button">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="Button">
+                    <Border x:Name="border"
+                             BorderThickness="0"
+                             CornerRadius="10"
+                            Background="{StaticResource brownDark}">
+                        <Label Content="{TemplateBinding Content}"
+                           HorizontalAlignment="Center"
+                           VerticalAlignment="Center"
+                           FontSize="25"
+                           Foreground="LightGray"
+                           FontFamily="Calibri"
+                           FontWeight="Black"/>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="IsMouseOver" Value="True">
+                            <Setter TargetName="border" Property="Background" Value="{StaticResource brown}"/>
+                        </Trigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+    <!--#endregion-->
+</ResourceDictionary>

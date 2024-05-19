@@ -1,0 +1,169 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:theme="clr-namespace:Microsoft.Windows.Themes;assembly=PresentationFramework.Aero2">
+
+    <ResourceDictionary.MergedDictionaries>
+        <ResourceDictionary Source="/Styles/Color.xaml"/>
+        <ResourceDictionary Source="/Styles/TextBlock.xaml"/>
+    </ResourceDictionary.MergedDictionaries>
+
+    <Style x:Key="ComboBoxToggleButton" TargetType="{x:Type ToggleButton}">
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ToggleButton}">
+                    <Border x:Name="border"
+                        Background="Transparent"
+                        BorderBrush="Transparent"
+                            Height="40"
+                            Width="40">
+                        <Canvas Width="25" Height="10">
+                            <Path Data="M0.819013 0.792901C1.20954 0.402381 1.8427 0.402381 2.23323 0.792901L8.52612 7.08581L14.819 0.792901C15.2095 0.402381 15.8427 0.402381 16.2332 0.792901C16.6237 1.18343 16.6237 1.81659 16.2332 2.20712L9.23322 9.20711C8.84272 9.59761 8.20952 9.59761 7.81902 9.20711L0.819013 2.20712C0.428493 1.81659 0.428493 1.18343 0.819013 0.792901Z" 
+                              Fill="{StaticResource black}">
+                                <Path.RenderTransform>
+                                    <RotateTransform x:Name="arrowRotate" Angle="0" 
+                                                 CenterX="8.5"
+                                                 CenterY="5"/>
+                                </Path.RenderTransform>
+                            </Path>
+                        </Canvas>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <EventTrigger RoutedEvent="ToggleButton.Checked">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetName="arrowRotate"
+                                                 Storyboard.TargetProperty="Angle"
+                                                 To="180" Duration="0:0:0.1" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                        <EventTrigger RoutedEvent="ToggleButton.Unchecked">
+                            <BeginStoryboard>
+                                <Storyboard>
+                                    <DoubleAnimation Storyboard.TargetName="arrowRotate"
+                                                 Storyboard.TargetProperty="Angle"
+                                                 To="0" Duration="0:0:0.1" />
+                                </Storyboard>
+                            </BeginStoryboard>
+                        </EventTrigger>
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+    <ControlTemplate x:Key="ComboBoxTextBox" TargetType="{x:Type TextBox}">
+        <Border x:Name="PART_ContentHost"
+                Focusable="False"
+                Background="{TemplateBinding Background}"/>
+    </ControlTemplate>
+
+    <Style x:Key="ComoBoxPoisk"
+           TargetType="{x:Type ComboBox}">
+        <Setter Property="Height" Value="44"/>
+        <Setter Property="Background" Value="White"/>
+        <Setter Property="FontSize" Value="20"/>
+        <Setter Property="Padding" Value="10 0 0 0"/>
+        <Setter Property="Template">
+            <Setter.Value>
+                <ControlTemplate TargetType="{x:Type ComboBox}">
+                    <Border x:Name="border"
+                            Background="White"
+                            CornerRadius="10"
+                            BorderThickness="2"
+                            BorderBrush="{StaticResource green}">
+                        <Grid>
+                            <Grid.ColumnDefinitions>
+                                <ColumnDefinition Width="*"/>
+                                <ColumnDefinition Width="45"/>
+                            </Grid.ColumnDefinitions>
+
+                            <ToggleButton Grid.Column="1"
+                                          Style="{StaticResource ComboBoxToggleButton}"
+                                          HorizontalAlignment="Center"
+                                          VerticalAlignment="Center"
+                                          Margin="0 2 10 0"
+                                          Focusable="False"
+                                          ClickMode="Press"
+                                          IsChecked="{Binding IsDropDownOpen, Mode=TwoWay, RelativeSource={RelativeSource Mode=TemplatedParent}}"/>
+
+                            <ContentPresenter x:Name="ContentSite"
+                                              IsHitTestVisible="False"
+                                              HorizontalAlignment="Left"
+                                              VerticalAlignment="Center"
+                                              Margin="5 0 0 0"
+                                              Content="{TemplateBinding SelectionBoxItem}"
+                                              ContentTemplate="{TemplateBinding SelectionBoxItemTemplate}"
+                                              ContentTemplateSelector="{TemplateBinding ItemTemplateSelector}"
+                                              IsEnabled="True"/>
+
+                            <TextBlock x:Name="pod"
+                                       Grid.Column="0"
+                                       Text="{TemplateBinding Tag}"
+                                       Style="{StaticResource textBlockInElemrnt}"
+                                       Margin="5 0 0 0"/>
+
+                            <TextBox x:Name="PART_EditableTextBox"
+                                     Template="{StaticResource ComboBoxTextBox}"
+                                     Focusable="True"
+                                     Visibility="Hidden"
+                                     FontSize="20"/>
+
+                            <Popup x:Name="PART_Popup"
+                                   Placement="bottom"
+                                   IsOpen="{TemplateBinding IsDropDownOpen}"
+                                   AllowsTransparency="True"
+                                   Focusable="False"
+                                   PopupAnimation="Slide">
+                                <Grid x:Name="drogDown"
+                                      SnapsToDevicePixels="True"
+                                      MinWidth="{TemplateBinding ActualWidth}"
+                                      MaxHeight="{TemplateBinding MaxDropDownHeight}">
+                                    <Border x:Name="drogDownBorder"
+                                                BorderThickness="1"
+                                                BorderBrush="{StaticResource green}"
+                                                Background="White"
+                                                ScrollViewer.CanContentScroll="True">
+                                        <ScrollViewer Margin="5"
+                                                  SnapsToDevicePixels="True"
+                                                  OverridesDefaultStyle="True"
+                                                  Foreground="{StaticResource black}"
+                                                  FontFamily="Calibri"
+                                                  FontSize="20"
+                                                  CanContentScroll="True">
+                                            <StackPanel IsItemsHost="True"
+                                                    KeyboardNavigation.DirectionalNavigation="Contained"/>
+                                        </ScrollViewer>
+                                    </Border>
+                                </Grid>
+                            </Popup>
+
+                        </Grid>
+                    </Border>
+                    <ControlTemplate.Triggers>
+                        <Trigger Property="HasItems" Value="False">
+                            <Setter TargetName="drogDownBorder" Property="MinHeight" Value="95"/>
+                        </Trigger>
+
+                        <Trigger SourceName="PART_Popup" Property="AllowsTransparency" Value="True">
+                            <Setter TargetName="drogDownBorder" Property="CornerRadius"  Value="4"/>
+                            <Setter  TargetName="drogDownBorder" Property="Margin" Value="0 2 0 0"/>
+                        </Trigger>
+
+                        <Trigger Property="SelectionBoxItem"  Value="">
+                            <Setter TargetName="pod" Property="Visibility" Value="Visible"/>
+                        </Trigger>
+
+                    </ControlTemplate.Triggers>
+                </ControlTemplate>
+            </Setter.Value>
+        </Setter>
+    </Style>
+
+
+
+
+    
+
+
+</ResourceDictionary>

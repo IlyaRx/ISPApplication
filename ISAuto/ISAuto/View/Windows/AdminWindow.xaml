@@ -1,0 +1,42 @@
+﻿<Window x:Class="ISAuto.View.Windows.AdminWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISAuto.View.Windows"
+        mc:Ignorable="d"
+        Title="AdminWindow" MinHeight="650" MinWidth="1200" Closed="Window_Closed">
+    <Grid>
+         <Grid.RowDefinitions>
+             <RowDefinition Height="40"/>
+             <RowDefinition/>
+         </Grid.RowDefinitions>
+        
+         <Grid>
+             <Grid.ColumnDefinitions>
+                 <ColumnDefinition Width="50"/>
+                 <ColumnDefinition/>
+                 <ColumnDefinition Width="150"/>
+                 <ColumnDefinition Width="100"/>
+             </Grid.ColumnDefinitions>
+        
+             <Border Grid.Column="0"
+                     Background="Gray">
+                 <Image/>
+             </Border>
+        
+             <TextBlock Grid.Column="1"
+              Background="White">Название магазина</TextBlock>
+        
+             <Button Grid.Column="3" x:Name="Exit" Click="Exit_Click">Выйти</Button>
+        
+         </Grid>
+        
+             <Frame Grid.Row="1"
+                 x:Name="CatalogFrame" 
+                 Background="Gray"/>
+
+    </Grid>
+
+
+</Window>

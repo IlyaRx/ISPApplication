@@ -1,0 +1,47 @@
+﻿<Window x:Class="ISAuto.View.Windows.EditPart"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:ISAuto.View.Windows"
+        mc:Ignorable="d"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Title="EditPart" Height="450" Width="300">
+    <Grid>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="2*"/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Border Grid.Column="0" Height="100" Width="100"
+                Background="LightGray">
+                <Image x:Name="ImageIcon"/>
+            </Border>
+
+            <TextBox x:Name="Name" Grid.Column="1">Название</TextBox>
+
+        </Grid>
+
+        <ComboBox x:Name="Manufacturer" Grid.Row="1"/>
+
+        <TextBox x:Name="Prise" Grid.Row="2">Цена</TextBox>
+
+        <TextBox x:Name="Quantity" Grid.Row="3">Колличество</TextBox>
+
+        <TextBox x:Name="Description" Grid.Row="4">Оисание</TextBox>
+
+        <Button x:Name="SaveBut" Grid.Row="5" Click="SaveBut_Click">Сохранить</Button>
+
+    </Grid>
+</Window>
