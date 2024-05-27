@@ -52,9 +52,10 @@
 
         </Grid>
 
-        <ScrollViewer Grid.Row="1" VerticalScrollBarVisibility="Hidden">
+        <ScrollViewer Grid.Row="1" 
+                      Style="{DynamicResource ScrollViewerStyle1}">
             <UniformGrid VerticalAlignment="Top"
-                         Columns="6"
+                         Columns="5"
                          x:Name="MainList"/>
         </ScrollViewer>
     </Grid>

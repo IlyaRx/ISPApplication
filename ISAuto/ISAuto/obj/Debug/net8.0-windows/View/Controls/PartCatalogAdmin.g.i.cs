@@ -85,7 +85,7 @@ namespace ISAuto.View.Controls {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ISAuto;component/view/controls/partcatalogadmin.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ISAuto;V1.0.0.0;component/view/controls/partcatalogadmin.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\Controls\PartCatalogAdmin.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

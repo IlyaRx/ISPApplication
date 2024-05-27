@@ -5,7 +5,7 @@
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              mc:Ignorable="d" Height="230" Width="210">
     
-    <Border CornerRadius="10" 
+    <Border 
             Margin="10 0 10 0"
             Background="#FFC4C5C9">
         <Grid>
@@ -17,8 +17,7 @@
             <Border Grid.Row="0" 
                     Background="#FF7C8190" 
                     Margin="0,0,0,74" 
-                    Grid.RowSpan="2" 
-                    CornerRadius="10">
+                    Grid.RowSpan="2" >
                 <Image x:Name="ImageAutoPart"/>
             </Border>
 
@@ -68,5 +67,9 @@
                 </Grid>
             </Border>
         </Grid>
+
+        <Border.Effect>
+            <DropShadowEffect Opacity="0.2"/>
+        </Border.Effect>
     </Border>
 </UserControl>

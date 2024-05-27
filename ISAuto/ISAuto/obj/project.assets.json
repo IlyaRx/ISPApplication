@@ -4244,11 +4244,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ilyac\\source\\repos\\ISAuto\\ISAuto\\ISAuto.csproj",
+      "projectUniqueName": "C:\\Users\\ilyac\\Desktop\\Git\\ISPApplication\\ISAuto\\ISAuto\\ISAuto.csproj",
       "projectName": "ISAuto",
-      "projectPath": "C:\\Users\\ilyac\\source\\repos\\ISAuto\\ISAuto\\ISAuto.csproj",
+      "projectPath": "C:\\Users\\ilyac\\Desktop\\Git\\ISPApplication\\ISAuto\\ISAuto\\ISAuto.csproj",
       "packagesPath": "C:\\Users\\ilyac\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ilyac\\source\\repos\\ISAuto\\ISAuto\\obj\\",
+      "outputPath": "C:\\Users\\ilyac\\Desktop\\Git\\ISPApplication\\ISAuto\\ISAuto\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ilyac\\AppData\\Roaming\\NuGet\\NuGet.Config",

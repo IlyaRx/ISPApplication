@@ -52,5 +52,10 @@ namespace ISAuto.View.Windows
             if(PasswordPlant.Password.Length != 0)
                 LablePassword.Visibility = Visibility.Collapsed;
         }
+
+        private void Window_Closed(object sender, EventArgs e)
+        {
+
+        }
     }
 }

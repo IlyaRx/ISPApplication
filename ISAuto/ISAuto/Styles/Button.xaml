@@ -41,6 +41,7 @@
                         BorderBrush="#FFBD8B1A"
                         BorderThickness="2"
                         Background="#FFF1BE31">
+                        
                         <Label Content="{TemplateBinding Content}"
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center"
@@ -48,6 +49,7 @@
                            Foreground="#FF6D5019"
                            FontFamily="Calibri"
                            FontWeight="Black"/>
+                        
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
@@ -78,6 +80,7 @@
                                Foreground="{TemplateBinding Foreground}"
                                FontFamily="Calibri"
                                FontWeight="Black"/>
+                        
                         <Border.Effect>
                             <DropShadowEffect ShadowDepth="0" Color="#FFBD8B1A"/>
                         </Border.Effect>
@@ -99,25 +102,32 @@
     <!--#endregion-->
 
     <!--#region butFormBrownMono-->
-    <Style x:Key="butFormBrownMono" TargetType="Button">
+    <Style x:Key="butFormGreyMono" TargetType="Button">
+        <Setter Property="FontSize" Value="25"/>
+        <Setter Property="Foreground" Value="LightGray"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="border"
-                             BorderThickness="0"
-                             CornerRadius="10"
-                            Background="{StaticResource brownDark}">
+                            BorderThickness="0"
+                            Background="#FF484848">
                         <Label Content="{TemplateBinding Content}"
+                               Margin="2 -13 2 -10"
                            HorizontalAlignment="Center"
                            VerticalAlignment="Center"
-                           FontSize="25"
-                           Foreground="LightGray"
+                           FontSize="{TemplateBinding FontSize}"
+                           Foreground="{TemplateBinding Foreground}"
                            FontFamily="Calibri"
                            FontWeight="Black"/>
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsMouseOver" Value="True">
-                            <Setter TargetName="border" Property="Background" Value="{StaticResource brown}"/>
+                            <Setter TargetName="border" Property="Background" Value="#FFC4C5C9"/>
+                            <Setter Property="Foreground" Value="#FF484848"/>
+                        </Trigger>
+                        <Trigger Property="IsEnabled" Value="false">
+                            <Setter Property="Background" TargetName="border" Value="#FFC4C5C9"/>
+                            <Setter Property="Foreground" Value="#FF9E9E9E"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

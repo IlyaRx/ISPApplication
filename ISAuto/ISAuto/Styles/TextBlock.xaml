@@ -5,12 +5,12 @@
         <ResourceDictionary Source="/Styles/Color.xaml"/>
     </ResourceDictionary.MergedDictionaries>
 
-    <Style x:Key="textBlockGreenTitle" TargetType="{x:Type TextBlock}">
+    <Style x:Key="textBlockLightGoldTitle" TargetType="{x:Type TextBlock}">
         <Setter Property="HorizontalAlignment" Value="Center"/>
         <Setter Property="FontFamily" Value="Calibri"/>
         <Setter Property="FontSize" Value="25"/>
         <Setter Property="FontWeight" Value="Bold"/>
-        <Setter Property="Foreground" Value="{StaticResource greenDark}"/>
+        <Setter Property="Foreground" Value="#FFEEDBA0"/>
     </Style>
 
 

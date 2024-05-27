@@ -3,7 +3,7 @@ using ISAuto.View.Controls;
 using ISAuto.View.Pages;
 using System.Windows;
 using System.Windows.Controls;
-using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Windows.Forms;
 using Window = System.Windows.Window;
 
 
@@ -23,16 +23,21 @@ namespace ISAuto.View.Windows
             _basketPage = new BasketPage(FrameMain);
             _flag = true;
 
-
-
-            DatabaseAutoContext.GetContext().TypeParts.ToList().ForEach(c =>
+            try
             {
+                DatabaseAutoContext.GetContext().TypeParts.ToList().ForEach(c =>
+                {
 
-                TypeControl typeControl = new TypeControl(c);
-                typeControl.Type += FuliCatalog;
-                ListTypeCatalog.Children.Add(typeControl);
+                    TypeControl typeControl = new TypeControl(c);
+                    typeControl.Type += FuliCatalog;
+                    ListTypeCatalog.Children.Add(typeControl);
 
-            });
+                });
+            }catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Возникли проблемы с соединением", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
 
             if(ListTypeCatalog.Children.Count != 0)
                 CatalogFrame.Content = new AutoPartsPage(1, _basketPage);
@@ -40,7 +45,7 @@ namespace ISAuto.View.Windows
 
         private void Window_Closed(object sender, EventArgs e)
         {
-            if(_flag) Application.Current.Shutdown();
+            if(_flag) System.Windows.Application.Current.Shutdown();
         }
 
         private void FuliCatalog(object sender)

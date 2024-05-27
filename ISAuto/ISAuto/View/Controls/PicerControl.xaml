@@ -4,24 +4,70 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ISAuto.View.Controls"
-             mc:Ignorable="d" >
-    <Grid Grid.Column="3">
-        <Grid.ColumnDefinitions>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-            <ColumnDefinition/>
-        </Grid.ColumnDefinitions>
+             mc:Ignorable="d" Width="135">
+    <Border Background="#FFD0D0D0"
+            Padding="5">
+        <Grid Grid.Column="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="2*"/>
+                <ColumnDefinition />
+            </Grid.ColumnDefinitions>
 
-        <Button Grid.Column="0" x:Name="Minus" Click="Minus_Click" >-</Button>
+            <Grid>
+                <Grid.RowDefinitions>
+                    <RowDefinition Height="0.2*"/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
 
-        <TextBlock Grid.Column="1"
-                x:Name="TextQuant"
-                Background="White"
-                HorizontalAlignment="Center"
-                VerticalAlignment="Center"/>
+                <TextBlock Grid.Row="0"
+                           HorizontalAlignment="Left"
+                           VerticalAlignment="Top"
+                           FontSize="15"
+                           Foreground="#FF3B3B3E"
+                           Style="{StaticResource textBlockLightGoldTitle}"
+                           Text="Колличество" />
 
-        <Button Grid.Column="2" x:Name="Plas" Click="Plas_Click" >+</Button>
 
-    </Grid>
+                    <TextBlock x:Name="TextQuant"
+                               Margin="3 5 3 3"
+                               Grid.Row="1" 
+                               Background="Transparent"
+                               HorizontalAlignment="Center"
+                               VerticalAlignment="Center"
+                               Style="{StaticResource textBlockForm}"
+                               Text="10"/>
+
+                
+            </Grid>
+            
+            
+            <Grid Grid.Column="1">
+                <Grid.RowDefinitions>
+                    <RowDefinition/>
+                    <RowDefinition/>
+                </Grid.RowDefinitions>
+
+                <Button Style="{StaticResource butFormGreyMono}"  
+                        Grid.Row="1" 
+                        x:Name="Minus" 
+                        Click="Minus_Click"
+                        FontSize="20"
+                        Content="-"
+                        Margin="3">
+                </Button>
+
+                <Button Grid.Row="0" 
+                        x:Name="Plas" 
+                        Click="Plas_Click"
+                        Content="+"
+                        FontSize="20"
+                        Margin="3"
+                        Style="{StaticResource butFormGreyMono}"/>
+
+            </Grid>
+
+            
+        </Grid>
+    </Border>
 
 </UserControl>

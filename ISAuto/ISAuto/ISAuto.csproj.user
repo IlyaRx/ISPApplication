@@ -42,6 +42,9 @@
     <Page Update="Styles\Button.xaml">
       <SubType>Designer</SubType>
     </Page>
+    <Page Update="Styles\SkrolBar.xaml">
+      <SubType>Designer</SubType>
+    </Page>
     <Page Update="View\Controls\PartCatalog.xaml">
       <SubType>Designer</SubType>
     </Page>

@@ -36,10 +36,15 @@
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsKeyboardFocused" Value="True">
-                            <Setter TargetName="pod" Property="Visibility" Value="Collapsed"/>
+                            <Setter TargetName="pod" 
+                                    Property="Visibility" 
+                                    Value="Collapsed"/>
                         </Trigger>
-                        <Trigger Property="Text" Value="">
-                            <Setter TargetName="pod" Property="Visibility" Value="Visible"/>
+                        <Trigger Property="Text" 
+                                 Value="">
+                            <Setter TargetName="pod" 
+                                    Property="Visibility" 
+                                    Value="Visible"/>
                         </Trigger>
                     </ControlTemplate.Triggers>
                 </ControlTemplate>

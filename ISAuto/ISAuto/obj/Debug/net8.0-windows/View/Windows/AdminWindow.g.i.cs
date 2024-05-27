@@ -69,7 +69,7 @@ namespace ISAuto.View.Windows {
                 return;
             }
             _contentLoaded = true;
-            System.Uri resourceLocater = new System.Uri("/ISAuto;component/view/windows/adminwindow.xaml", System.UriKind.Relative);
+            System.Uri resourceLocater = new System.Uri("/ISAuto;V1.0.0.0;component/view/windows/adminwindow.xaml", System.UriKind.Relative);
             
             #line 1 "..\..\..\..\..\View\Windows\AdminWindow.xaml"
             System.Windows.Application.LoadComponent(this, resourceLocater);

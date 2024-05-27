@@ -8,26 +8,61 @@
       d:DesignHeight="450" d:DesignWidth="800"
       Title="BasketPage">
 
-    <Grid Background="White">
+    <Grid Background="#FF4E515A">
         <Grid.RowDefinitions>
+            <RowDefinition Height="35"/>
             <RowDefinition/>
             <RowDefinition Height="50"/>
         </Grid.RowDefinitions>
 
-        <ScrollViewer>
-            <StackPanel Grid.Row="0" x:Name="MainList" />
+        <TextBlock Style="{StaticResource textBlockLightGoldTitle}" 
+                   VerticalAlignment="Center"
+                   Text="Карзина"/>
+
+        <ScrollViewer Style="{DynamicResource ScrollViewerStyle1}" Grid.Row="1">
+            <StackPanel  x:Name="MainList"/>
         </ScrollViewer>
 
-        <Grid Grid.Row="1">
+        <Grid Grid.Row="2">
             <Grid.ColumnDefinitions>
+                <ColumnDefinition Width="0.4*"/>
                 <ColumnDefinition/>
-                <ColumnDefinition/>
-                <ColumnDefinition Width="300"/>
+                <ColumnDefinition Width="100"/>
+                <ColumnDefinition Width="100"/>
             </Grid.ColumnDefinitions>
 
-            <TextBlock x:Name="SumPrise" Grid.Column="0">Стоймость</TextBlock>
-            <Button x:Name="BuyBut" Grid.Column="1" Click="BuyBut_Click">Купить</Button>
-            <Button x:Name="Back" Grid.Column="2" Click="Back_Click" >Назад</Button>
+            <Border>
+                <StackPanel>
+                    <TextBlock HorizontalAlignment="Left"
+                               VerticalAlignment="Center"
+                               FontSize="15"
+                               Margin="5 0 0 0"
+                               Foreground="#FFC4C5C9"
+                               Style="{StaticResource textBlockLightGoldTitle}"
+                               Text="Общая стоймость" />
+                    
+                    <TextBlock x:Name="SumPrise" 
+                               Grid.Column="0" 
+                               Margin="5 0 0 0"
+                               HorizontalAlignment="left"
+                               VerticalAlignment="Center"
+                               Style="{StaticResource textBlockLightGoldTitle}"
+                               Text="Стоймость"/>
+                </StackPanel>
+                
+            </Border>
+            <Button x:Name="BuyBut" 
+                    Grid.Column="2" 
+                    Click="BuyBut_Click" 
+                    Content="Купить"
+                    Margin="5"
+                    Style="{StaticResource butForm}"/>
+            <Button x:Name="Back" 
+                    Grid.Column="3" 
+                    Click="Back_Click" 
+                    Content="Назад"
+                    Margin="5"
+                    Style="{StaticResource butForm}"/>
 
         </Grid>
 
