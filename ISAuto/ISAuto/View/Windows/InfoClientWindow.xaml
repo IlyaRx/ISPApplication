@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
-        Title="InfoWindow" Height="450" Width="300">
-    <Grid>
+        Title="InfoWindow" MinHeight="450" Width="300">
+    <Grid Margin="10 0 0 0">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="2*"/>
         </Grid.RowDefinitions>
 
         <Grid>
@@ -28,18 +28,68 @@
                 <Image x:Name="ImageIcon"/>
             </Border>
 
-            <TextBlock x:Name="Name" Grid.Column="1">Название</TextBlock>
-            
+            <TextBlock x:Name="Name" 
+                       Grid.Column="1"
+                       Text="Название"
+                       VerticalAlignment="Center"
+                       TextWrapping="Wrap"
+                       Style="{StaticResource textBlockBrownTitle}" />
+
         </Grid>
 
-        <TextBlock x:Name="Manufacturer" Grid.Row="1">Производитель</TextBlock>
-
-        <TextBlock x:Name="Prise" Grid.Row="2">Цена</TextBlock>
-
-        <TextBlock x:Name="Quantity" Grid.Row="3">Колличество</TextBlock>
-
-        <TextBlock x:Name="Description" Grid.Row="4">Оисание</TextBlock>
+        <TextBlock Grid.Row="1"
+                   Text="Производитель"
+                   VerticalAlignment="Top"
+                   FontWeight="Bold"
+                   Style="{StaticResource textBlockForm}"/>
         
+        <TextBlock x:Name="Manufacturer" 
+                   Grid.Row="1"
+                   Text="Производитель"
+                   VerticalAlignment="Center"
+                   Style="{StaticResource textBlockForm}"/>
+
+        <TextBlock Grid.Row="2"
+                   Text="Цена"
+                   VerticalAlignment="Top"
+                   FontWeight="Bold"
+                   Style="{StaticResource textBlockForm}"/>
         
+        <TextBlock x:Name="Prise" 
+                   Grid.Row="2"
+                   Text="Цена"
+                   VerticalAlignment="Center"
+                   Style="{StaticResource textBlockForm}"/>
+
+
+        <TextBlock Grid.Row="3"
+                   Text="Колличество"
+                   VerticalAlignment="Top"
+                   FontWeight="Bold"
+                   Style="{StaticResource textBlockForm}"/>
+        
+        <TextBlock x:Name="Quantity" 
+                   Grid.Row="3"
+                   Text="Колличество"
+                   VerticalAlignment="Center"
+                   Style="{StaticResource textBlockForm}"/>
+
+        <TextBlock Grid.Row="4"
+                   Style="{StaticResource textBlockForm}"
+                   Text="Описание"
+                   FontWeight="Bold"/>
+
+        <ScrollViewer Margin="0 22 0 0"
+                      Grid.Row="4"
+                      VerticalScrollBarVisibility="Auto"
+                      Style="{DynamicResource ScrollViewerStyle1}">
+            <TextBlock x:Name="Description" 
+                       Text="Оисание"
+                       VerticalAlignment="Top"
+                       TextWrapping="Wrap"
+                       Style="{StaticResource textBlockForm}"/>
+        </ScrollViewer>
+
+
     </Grid>
 </Window>

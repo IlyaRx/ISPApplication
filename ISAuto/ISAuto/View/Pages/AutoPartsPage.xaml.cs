@@ -52,33 +52,40 @@ namespace ISAuto.View.Pages
             MainList.Children.Clear();
             List<PartsInStore> parts = new List<PartsInStore>();
 
-            if (_flagIsParam)
+            try
             {
-                DatabaseAutoContext.GetContext().PartsInStores.Include(p => p.AutoPart).Include(p => p.AutoPart.Manufacturer)
-                                                   .Where(p => p.AutoPart.TypeId == _typeId && p.Quantity > 0).OrderBy(p => p.AutoPart.Name).ToList()
-                                                   .ForEach(p => parts.Add(p));
+                if (_flagIsParam)
+                {
+                    DatabaseAutoContext.GetContext().PartsInStores.Include(p => p.AutoPart).Include(p => p.AutoPart.Manufacturer)
+                                                       .Where(p => p.AutoPart.TypeId == _typeId && p.Quantity > 0).OrderBy(p => p.AutoPart.Name).ToList()
+                                                       .ForEach(p => parts.Add(p));
 
-                if (orderby)
-                    parts = parts.OrderByDescending(p => p.AutoPart.Name).ToList();
-            }
-            else
+                    if (orderby)
+                        parts = parts.OrderByDescending(p => p.AutoPart.Name).ToList();
+                }
+                else
+                {
+
+                    DatabaseAutoContext.GetContext().PartsInStores.Include(p => p.AutoPart).Include(p => p.AutoPart.Manufacturer)
+                                                       .OrderBy(p => p.Quantity).ToList()
+                                                       .ForEach(p => parts.Add(p));
+
+                    if (orderby)
+                        parts = parts.OrderByDescending(p => p.Quantity).ToList();
+                }
+
+                if (text != null && text != "")
+                    parts = parts.Where(p => p.AutoPart.Name.ToLower().Contains(text.ToLower())).ToList();
+
+                if (_flagIsParam)
+                    parts.ForEach(p => MainList.Children.Add(new PartCatalog(p, _basketPage)));
+                else
+                    parts.ForEach(p => MainList.Children.Add(new PartCatalogAdmin(p)));
+
+            }catch (Exception ex)
             {
-
-                DatabaseAutoContext.GetContext().PartsInStores.Include(p => p.AutoPart).Include(p => p.AutoPart.Manufacturer)
-                                                   .OrderBy(p => p.Quantity).ToList()
-                                                   .ForEach(p => parts.Add(p));
-
-                if (orderby)
-                    parts = parts.OrderByDescending(p => p.Quantity).ToList();
+                MessageBox.Show("Ошибка)");
             }
-
-            if (text != null && text != "")
-                parts = parts.Where(p => p.AutoPart.Name.ToLower().Contains(text.ToLower())).ToList();
-
-            if (_flagIsParam)
-                parts.ForEach(p => MainList.Children.Add(new PartCatalog(p, _basketPage)));
-            else
-                parts.ForEach(p => MainList.Children.Add(new PartCatalogAdmin(p)));
         }
 
         private void Poisk_Click(object sender, RoutedEventArgs e)

@@ -15,21 +15,35 @@
                 <RowDefinition MinHeight="50"/>
             </Grid.RowDefinitions>
 
-            <Border Grid.Row="0">
-                <Image x:Name="ImageAutoPart" Width="100" Height="100"/>
+            <Border Grid.Row="0"
+                    Margin="10">
+                <Image x:Name="ImageAutoPart"/>
             </Border>
 
-            <TextBlock x:Name="PartName" Grid.Row="1" HorizontalAlignment="Center">Название</TextBlock>
+            <TextBlock x:Name="PartName" 
+                       Grid.Row="1" 
+                       HorizontalAlignment="Center" 
+                       Text="Название"
+                       Style="{StaticResource textBlockForm}"/>
 
-            <TextBlock x:Name="PartPrise" Grid.Row="2" HorizontalAlignment="Center">Цена</TextBlock>
-            
-            <TextBlock x:Name="PartQuantity" Grid.Row="3" HorizontalAlignment="Center">Колличество</TextBlock>
+            <TextBlock x:Name="PartPrise" 
+                       Grid.Row="2" 
+                       HorizontalAlignment="Center"
+                       Text="Цена"
+                       Style="{StaticResource textBlockForm}"/>
+
+            <TextBlock x:Name="PartQuantity" 
+                       Grid.Row="3" 
+                       HorizontalAlignment="Center"
+                       Text="Колличество"
+                       Style="{StaticResource textBlockForm}"/>
 
             <Button Grid.Row="4"
                     Margin="10"
                     Padding="5"
                     Content="Изменить" 
-                    Click="Button_Click" />
+                    Click="Button_Click" 
+                    Style="{StaticResource butFormDark}"/>
 
 
         </Grid>

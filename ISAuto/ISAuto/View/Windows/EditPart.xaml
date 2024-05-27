@@ -7,14 +7,14 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
-        Title="EditPart" Height="450" Width="300">
-    <Grid>
+        Title="EditPart" Height="500" Width="300">
+    <Grid Background="#FF8A8C92">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
-            <RowDefinition/>
+            <RowDefinition Height="2*"/>
             <RowDefinition/>
         </Grid.RowDefinitions>
 
@@ -29,19 +29,87 @@
                 <Image x:Name="ImageIcon"/>
             </Border>
 
-            <TextBox x:Name="Name" Grid.Column="1">Название</TextBox>
+            <TextBox x:Name="Name" 
+                     FontSize="20"
+                     Style="{StaticResource TextBoxBrown}"
+                     Grid.Column="1"
+                     Text="Название"
+                     VerticalContentAlignment="Center"
+                     HorizontalContentAlignment="Center"/>
 
         </Grid>
 
-        <ComboBox x:Name="Manufacturer" Grid.Row="1"/>
+        <Border Grid.Row="1"
+                BorderBrush="White"
+                BorderThickness="0 1 0 0">
+            <TextBlock Text="Производитель" 
+                       Margin="5 0 0 0"
+                       FontSize="15"
+                       Foreground="White"/>
+        </Border>
 
-        <TextBox x:Name="Prise" Grid.Row="2">Цена</TextBox>
+        <ComboBox x:Name="Manufacturer" 
+                  Grid.Row="1" 
+                  FontSize="15"
+                  Margin="0 22 0 0"
+                  Style="{StaticResource ComoBoxS1}"/>
 
-        <TextBox x:Name="Quantity" Grid.Row="3">Колличество</TextBox>
+        <TextBlock Text="Цена" 
+                   Grid.Row="2"
+                   Margin="5 0 0 0"
+                   FontSize="15"
+                   Foreground="White"/>
 
-        <TextBox x:Name="Description" Grid.Row="4">Оисание</TextBox>
+        <TextBox x:Name="Prise"
+                 Margin="0 22 0 0"
+                 Grid.Row="2" 
+                 Text="Цена"
+                 FontSize="15"
+                 Style="{StaticResource TextBoxBrown}"/>
 
-        <Button x:Name="SaveBut" Grid.Row="5" Click="SaveBut_Click">Сохранить</Button>
+        <Border Grid.Row="3"
+                BorderBrush="White"
+                BorderThickness="0 1 0 0">
+            <TextBlock Text="Колличество" 
+                       Margin="5 0 0 0"
+                       FontSize="15"
+                       Foreground="White"/>
+        </Border>
+
+        <TextBox x:Name="Quantity" 
+                 Grid.Row="3"
+                 Margin="0 22 0 0"
+                 Text="Колличество"
+                 FontSize="15"
+                 Style="{StaticResource TextBoxBrown}"/>
+
+        <Border Grid.Row="4"
+                BorderBrush="White"
+                BorderThickness="0 1 0 0">
+            <TextBlock Text="Описание" 
+                       Margin="5 0 0 0"
+                       FontSize="15"
+                       Foreground="White"/>
+        </Border>
+        
+        <ScrollViewer Grid.Row="4"
+                      Margin="0 22 0 0"
+                      Style="{DynamicResource ScrollViewerStyle1}"
+                      VerticalScrollBarVisibility="Auto">
+            <TextBox x:Name="Description" 
+                     Text="Оисание"
+                     VerticalContentAlignment="Top"
+                     TextWrapping="Wrap"
+                     FontSize="15"
+                     Style="{StaticResource TextBoxBrown}"/>
+        </ScrollViewer>
+
+        <Button x:Name="SaveBut" 
+                Grid.Row="5" 
+                Click="SaveBut_Click" 
+                Content="Сохранить"
+                FontSize="20"
+                Style="{StaticResource butFormGreyMono}"/>
 
     </Grid>
 </Window>

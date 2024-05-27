@@ -58,20 +58,17 @@
                 Background="{TemplateBinding Background}"/>
     </ControlTemplate>
 
-    <Style x:Key="ComoBoxPoisk"
+    <Style x:Key="ComoBoxS1"
            TargetType="{x:Type ComboBox}">
-        <Setter Property="Height" Value="44"/>
         <Setter Property="Background" Value="White"/>
         <Setter Property="FontSize" Value="20"/>
-        <Setter Property="Padding" Value="10 0 0 0"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="{x:Type ComboBox}">
                     <Border x:Name="border"
-                            Background="White"
-                            CornerRadius="10"
-                            BorderThickness="2"
-                            BorderBrush="{StaticResource green}">
+                            Background="#FF8A8C92"
+                            BorderBrush="White"
+                            BorderThickness="0 0 0 1">
                         <Grid>
                             <Grid.ColumnDefinitions>
                                 <ColumnDefinition Width="*"/>
@@ -107,7 +104,7 @@
                                      Template="{StaticResource ComboBoxTextBox}"
                                      Focusable="True"
                                      Visibility="Hidden"
-                                     FontSize="20"/>
+                                     FontSize="{TemplateBinding FontSize}"/>
 
                             <Popup x:Name="PART_Popup"
                                    Placement="bottom"
@@ -120,19 +117,17 @@
                                       MinWidth="{TemplateBinding ActualWidth}"
                                       MaxHeight="{TemplateBinding MaxDropDownHeight}">
                                     <Border x:Name="drogDownBorder"
-                                                BorderThickness="1"
-                                                BorderBrush="{StaticResource green}"
-                                                Background="White"
-                                                ScrollViewer.CanContentScroll="True">
+                                            Background="White"
+                                            ScrollViewer.CanContentScroll="True">
                                         <ScrollViewer Margin="5"
-                                                  SnapsToDevicePixels="True"
-                                                  OverridesDefaultStyle="True"
-                                                  Foreground="{StaticResource black}"
-                                                  FontFamily="Calibri"
-                                                  FontSize="20"
-                                                  CanContentScroll="True">
+                                                      SnapsToDevicePixels="True"
+                                                      OverridesDefaultStyle="True"
+                                                      Foreground="{StaticResource black}"
+                                                      FontFamily="Calibri"
+                                                      FontSize="{TemplateBinding FontSize}"
+                                                      CanContentScroll="True">
                                             <StackPanel IsItemsHost="True"
-                                                    KeyboardNavigation.DirectionalNavigation="Contained"/>
+                                                        KeyboardNavigation.DirectionalNavigation="Contained"/>
                                         </ScrollViewer>
                                     </Border>
                                 </Grid>

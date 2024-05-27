@@ -4,16 +4,16 @@
 winexe
 C#
 .cs
-C:\Users\ilyac\Desktop\Git\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\
 ISAuto
 none
 false
 TRACE;DEBUG;NET;NET8_0;NETCOREAPP
-C:\Users\ilyac\Desktop\Git\ISPApplication\ISAuto\ISAuto\App.xaml
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\App.xaml
 22-327658503
 
 28-2004401306
-2381180253781
+2382063533658
 Styles\Border.xaml;Styles\Button.xaml;Styles\Color.xaml;Styles\ComboBox.xaml;Styles\DatePicker.xaml;Styles\DictionaryStyle.xaml;Styles\RadioButton.xaml;Styles\SkrolBar.xaml;Styles\TextBlock.xaml;Styles\TextBox.xaml;View\Controls\PartBasketControl.xaml;View\Controls\PartCatalog.xaml;View\Controls\PartCatalogAdmin.xaml;View\Controls\PicerControl.xaml;View\Controls\TypeControl.xaml;View\Pages\AutoPartsPage.xaml;View\Pages\BasketPage.xaml;View\Windows\AdminWindow.xaml;View\Windows\ClientWindow.xaml;View\Windows\EditPart.xaml;View\Windows\InfoClientWindow.xaml;View\Windows\MainWindow.xaml;
 
 False
