@@ -503,3 +503,7 @@ C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\o
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\ISAuto.pdb
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\ISAuto.genruntimeconfig.cache
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\ref\ISAuto.dll
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\PaymentPage.g.cs
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\QRCodePage.g.cs
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\PaymentPage.baml
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\QRCodePage.baml

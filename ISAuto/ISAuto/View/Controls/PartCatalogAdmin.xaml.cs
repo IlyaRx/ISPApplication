@@ -32,8 +32,8 @@ namespace ISAuto.View.Controls
             _partsInStore = carPartsStor;
 
             PartName.Text = autoPart.Name;
-            PartPrise.Text = carPartsStor.Price.ToString();
-            PartQuantity.Text = carPartsStor.Quantity.ToString();
+            PartPrise.Text = carPartsStor.Price.ToString() + " ₽";
+            PartQuantity.Text = carPartsStor.Quantity.ToString() + " шт.";
 
 
             if (autoPart.Image != null)

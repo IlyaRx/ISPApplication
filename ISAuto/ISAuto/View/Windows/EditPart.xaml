@@ -21,18 +21,16 @@
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="1.5*"/>
             </Grid.ColumnDefinitions>
 
-            <Border Grid.Column="0" Height="100" Width="100"
-                Background="LightGray">
-                <Image x:Name="ImageIcon"/>
-            </Border>
+            <Image Grid.Column="0" Height="100" Width="100" x:Name="ImageIcon" Source="/Resourse/Icons/Transmissia.png"/>
 
             <TextBox x:Name="Name" 
                      FontSize="20"
                      Style="{StaticResource TextBoxBrown}"
                      Grid.Column="1"
+                     TextWrapping="Wrap"
                      Text="Название"
                      VerticalContentAlignment="Center"
                      HorizontalContentAlignment="Center"/>
@@ -52,6 +50,7 @@
                   Grid.Row="1" 
                   FontSize="15"
                   Margin="0 22 0 0"
+                  Foreground="Black"
                   Style="{StaticResource ComoBoxS1}"/>
 
         <TextBlock Text="Цена" 
@@ -91,25 +90,38 @@
                        FontSize="15"
                        Foreground="White"/>
         </Border>
-        
-        <ScrollViewer Grid.Row="4"
-                      Margin="0 22 0 0"
-                      Style="{DynamicResource ScrollViewerStyle1}"
-                      VerticalScrollBarVisibility="Auto">
-            <TextBox x:Name="Description" 
-                     Text="Оисание"
-                     VerticalContentAlignment="Top"
-                     TextWrapping="Wrap"
-                     FontSize="15"
-                     Style="{StaticResource TextBoxBrown}"/>
-        </ScrollViewer>
+
+        <Border Grid.Row="4" 
+                Margin="5 25 10 10" 
+                Background="#FFEDEDED"
+                CornerRadius="10" 
+                BorderThickness="3" 
+                BorderBrush="LightGray">
+
+            <ScrollViewer Grid.Row="4"
+                          VerticalScrollBarVisibility="Auto"
+                          VerticalAlignment="Top"
+                          Style="{DynamicResource ScrollViewerStyle1}">
+                <TextBox x:Name="Description" 
+                         Text="Оисание"
+                         VerticalContentAlignment="Top"
+                         TextWrapping="Wrap"
+                         FontSize="15"
+                         Background="Transparent"
+                         Foreground="Black"
+                         Style="{StaticResource TextBoxBrown}"/>
+            </ScrollViewer>
+        </Border>
+
 
         <Button x:Name="SaveBut" 
                 Grid.Row="5" 
                 Click="SaveBut_Click" 
                 Content="Сохранить"
                 FontSize="20"
-                Style="{StaticResource butFormGreyMono}"/>
+                Margin="10 0 10 5"
+                Style="{StaticResource butFormGreyMonoRad}">
+        </Button>
 
     </Grid>
 </Window>

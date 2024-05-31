@@ -72,14 +72,16 @@ namespace ISAuto.View.Pages
                 sum += part.QuantityCost;
             }
 
-            SumPrise.Text = sum.ToString();
+            SumPrise.Text = sum.ToString() + " ₽";
         }
 
         private void BuyBut_Click(object sender, RoutedEventArgs e)
         {
+            if (_partBasketControls.Count <= 0)
+                return;
             Order order = new Order()
             {
-                Cost = int.Parse(SumPrise.Text),
+                Cost = int.Parse(SumPrise.Text.Split(" ")[0]),
                 DateTimePurchase = DateTime.Now,
             };
 
@@ -87,7 +89,7 @@ namespace ISAuto.View.Pages
 
             foreach (var part in _partBasketControls)
             {
-                PartsInOeder partsInOeder = new PartsInOeder()
+                PartsInOeder partsInOrder = new PartsInOeder()
                 {
                     PartsInStoreId = part.PartsStore.Id,
                     Order = order,
@@ -96,15 +98,12 @@ namespace ISAuto.View.Pages
 
                 DatabaseAutoContext.GetContext().PartsInStores.First(p => p.Id == part.PartsStore.Id).Quantity -= part.Picer.Quantity;
 
-                DatabaseAutoContext.GetContext().PartsInOeders.Add(partsInOeder);
+                DatabaseAutoContext.GetContext().PartsInOeders.Add(partsInOrder);
 
             }
             DatabaseAutoContext.GetContext().SaveChanges();
 
-            Window window = Window.GetWindow(this);
-            Window main = new ClientWindow();
-            main.Show();
-            window.Hide();
+            this.NavigationService.Navigate(new PaymentPage(order));
 
         }
         private void UserControl_Loaded(object sender, RoutedEventArgs e) => Sum();

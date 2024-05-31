@@ -4,27 +4,30 @@
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
              xmlns:local="clr-namespace:ISAuto.View.Controls"
-             mc:Ignorable="d" Height="260" Width="210">
+             mc:Ignorable="d" Height="280" Width="210">
     <Border CornerRadius="10" Background="LightGray" Margin="0 10 0 10">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition MinHeight="100"/>
-                <RowDefinition/>
+                <RowDefinition Height="100"/>
+                <RowDefinition Height="1.9*"/>
                 <RowDefinition/>
                 <RowDefinition/>
                 <RowDefinition MinHeight="50"/>
             </Grid.RowDefinitions>
 
             <Border Grid.Row="0"
-                    Margin="10">
-                <Image x:Name="ImageAutoPart"/>
+                    CornerRadius="10" Background="#FF8D8F95">
+                <Image x:Name="ImageAutoPart" Margin="5" Source="/Resourse/Icons/Transmissia.png"/>
+
             </Border>
 
             <TextBlock x:Name="PartName" 
                        Grid.Row="1" 
                        HorizontalAlignment="Center" 
+                       VerticalAlignment="Center"
                        Text="Название"
-                       Style="{StaticResource textBlockForm}"/>
+                       TextWrapping="Wrap"
+                       Style="{StaticResource textBlockForm}" TextAlignment="Center"/>
 
             <TextBlock x:Name="PartPrise" 
                        Grid.Row="2" 

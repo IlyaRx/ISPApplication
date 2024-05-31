@@ -10,6 +10,11 @@
 
   <ItemGroup>
     <None Remove="Resourse\1716142958690q8dmnous.png" />
+    <None Remove="Resourse\Icons\Transmissia.png" />
+    <None Remove="Resourse\лого сбп.png" />
+    <None Remove="Resourse\Логотип.png" />
+    <None Remove="Resourse\Оплата_qrcode.png" />
+    <None Remove="Resourse\СБП_логотип.svg.png" />
   </ItemGroup>
 
   <ItemGroup>
@@ -23,6 +28,11 @@
 
   <ItemGroup>
     <Resource Include="Resourse\1716142958690q8dmnous.png" />
+    <Resource Include="Resourse\Icons\Transmissia.png" />
+    <Resource Include="Resourse\лого сбп.png" />
+    <Resource Include="Resourse\Icons\Логотип.png" />
+    <Resource Include="Resourse\Оплата_qrcode.png" />
+    <Resource Include="Resourse\СБП_логотип.svg.png" />
   </ItemGroup>
 
 </Project>

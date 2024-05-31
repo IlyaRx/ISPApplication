@@ -8,34 +8,37 @@
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
         Title="InfoWindow" MinHeight="450" Width="300">
-    <Grid Margin="10 0 0 0">
+    <Grid Margin="10 0 10 0">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
-            <RowDefinition Height="2*"/>
+            <RowDefinition Height="2.9*"/>
         </Grid.RowDefinitions>
 
         <Grid>
             <Grid.ColumnDefinitions>
                 <ColumnDefinition/>
-                <ColumnDefinition/>
+                <ColumnDefinition Width="1.5*"/>
             </Grid.ColumnDefinitions>
             
-            <Border Grid.Column="0" Height="100" Width="100"
+            <Border Grid.Column="0" Height="100" Width="100" CornerRadius="10"
                     Background="LightGray">
-                <Image x:Name="ImageIcon"/>
+                <Image x:Name="ImageIcon" Margin="5"/>
             </Border>
 
             <TextBlock x:Name="Name" 
                        Grid.Column="1"
+                       FontSize="20"
                        Text="Название"
                        VerticalAlignment="Center"
                        TextWrapping="Wrap"
                        Style="{StaticResource textBlockBrownTitle}" />
 
         </Grid>
+
+        <Border Grid.Row="1" BorderBrush="Gray" Margin="0 0 10 0" BorderThickness="0 2 0 2"/>
 
         <TextBlock Grid.Row="1"
                    Text="Производитель"
@@ -49,6 +52,8 @@
                    VerticalAlignment="Center"
                    Style="{StaticResource textBlockForm}"/>
 
+        <Border Grid.Row="2" BorderBrush="Gray" Margin="0 0 10 0" BorderThickness="0 0 0 2"/>
+
         <TextBlock Grid.Row="2"
                    Text="Цена"
                    VerticalAlignment="Top"
@@ -60,6 +65,9 @@
                    Text="Цена"
                    VerticalAlignment="Center"
                    Style="{StaticResource textBlockForm}"/>
+        
+        
+        <Border Grid.Row="3" BorderBrush="Gray" Margin="0 0 10 0" BorderThickness="0 0 0 2"/>
 
 
         <TextBlock Grid.Row="3"
@@ -74,22 +82,24 @@
                    VerticalAlignment="Center"
                    Style="{StaticResource textBlockForm}"/>
 
-        <TextBlock Grid.Row="4"
-                   Style="{StaticResource textBlockForm}"
-                   Text="Описание"
-                   FontWeight="Bold"/>
+                <TextBlock Grid.Row="4"
+                            Style="{StaticResource textBlockForm}"
+                            Text="Описание"
+                            FontWeight="Bold"/>
+        <Border Grid.Row="4" Margin="0 25 10 10" Background="#FFEDEDED" CornerRadius="10" BorderThickness="3" BorderBrush="LightGray">
+            <ScrollViewer Grid.Row="4"
+                          VerticalScrollBarVisibility="Auto"
+                          VerticalAlignment="Top"
+                          Style="{DynamicResource ScrollViewerStyle1}">
+                <TextBlock x:Name="Description" 
+                           Text="Оисание"
+                           VerticalAlignment="Top"
+                           TextWrapping="Wrap"
+                           Style="{StaticResource textBlockForm}"/>
+            </ScrollViewer>
+        </Border>
 
-        <ScrollViewer Margin="0 22 0 0"
-                      Grid.Row="4"
-                      VerticalScrollBarVisibility="Auto"
-                      Style="{DynamicResource ScrollViewerStyle1}">
-            <TextBlock x:Name="Description" 
-                       Text="Оисание"
-                       VerticalAlignment="Top"
-                       TextWrapping="Wrap"
-                       Style="{StaticResource textBlockForm}"/>
-        </ScrollViewer>
-
+       
 
     </Grid>
 </Window>

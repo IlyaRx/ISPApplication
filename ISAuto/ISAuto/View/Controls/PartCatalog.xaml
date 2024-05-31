@@ -3,23 +3,32 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
              xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006" 
              xmlns:d="http://schemas.microsoft.com/expression/blend/2008" 
-             mc:Ignorable="d" Height="230" Width="210">
+             mc:Ignorable="d" MinHeight="250" Width="210">
     
     <Border 
-            Margin="10 0 10 0"
-            Background="#FFC4C5C9">
+            Margin="10 10 10 0"
+            Background="#FFC4C5C9"
+        CornerRadius="10">
         <Grid>
             <Grid.RowDefinitions>
-                <RowDefinition MinHeight="100"/>
+                <RowDefinition Height="100"/>
                 <RowDefinition Height="10*"/>
             </Grid.RowDefinitions>
 
             <Border Grid.Row="0" 
-                    Background="#FF7C8190" 
-                    Margin="0,0,0,74" 
-                    Grid.RowSpan="2" >
-                <Image x:Name="ImageAutoPart"/>
+                    Background="#FF595B62" 
+                    Margin="0,0,0,120" 
+                    Grid.RowSpan="2" 
+                    CornerRadius="10 10 0 0">
+                <Image x:Name="ImageAutoPart" 
+                       Margin="0 0 0 -3"
+                       Height="100"
+                       Stretch="Uniform"
+                       HorizontalAlignment="Stretch"
+                       VerticalAlignment="Stretch"
+                       Source="/Resourse/Icons/Transmissia.png" />
             </Border>
+
 
             <Border Grid.Row="1"
             Background="#FFC4C5C9"
@@ -32,10 +41,11 @@
                     </Grid.RowDefinitions>
                     <TextBlock x:Name="PartName" 
                                Grid.Row="0" 
+                               TextWrapping="Wrap"
                                VerticalAlignment="Center"
                                HorizontalAlignment="Center"
                                Style="{StaticResource textBlockForm}"
-                               Text="Название" FontWeight="Bold"/>
+                               Text="Название" FontWeight="Bold" TextAlignment="Center"/>
 
                     <TextBlock x:Name="PartPrise" 
                                Grid.Row="1" 

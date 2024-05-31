@@ -10,6 +10,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.IO;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -34,12 +35,10 @@ namespace ISAuto.View.Controls
             _basketPage = basketPage;
 
             PartName.Text = autoPart.Name;
-            PartPrise.Text = carPartsStor.Price.ToString();
-
+            PartPrise.Text = carPartsStor.Price.ToString() + " ₽";
 
             if (autoPart.Image != null)
             {
-
                 BitmapImage bitmap = new BitmapImage();
                 bitmap.BeginInit();
                 bitmap.UriSource = new Uri(autoPart.Image, UriKind.Absolute);

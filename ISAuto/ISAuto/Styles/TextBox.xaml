@@ -186,9 +186,7 @@
                                           HorizontalScrollBarVisibility="Hidden" 
                                           VerticalScrollBarVisibility="Hidden"/>
                         </Grid>
-                        <Border.Effect>
-                            <DropShadowEffect Color="#FFE5BA5B" ShadowDepth="0" Opacity="0.2" BlurRadius="10" />
-                        </Border.Effect>
+
                     </Border>
                     <ControlTemplate.Triggers>
                         <Trigger Property="IsKeyboardFocused" Value="True">

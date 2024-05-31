@@ -18,13 +18,13 @@
             <Grid.ColumnDefinitions>
                 <ColumnDefinition Width="78*"/>
                 <ColumnDefinition Width="20*"/>
-                <ColumnDefinition Width="15*"/>
             </Grid.ColumnDefinitions>
 
             <TextBox Style="{StaticResource TextBoxBrown}"
                      Margin="5"
                      x:Name="TextBoxPoisk" 
-                     Grid.Column="0" />
+                     Grid.Column="0" 
+                     TextChanged="TextBoxPoisk_TextChanged"/>
 
             <Border Grid.Column="1">
                 <StackPanel VerticalAlignment="Center">
@@ -32,21 +32,15 @@
                                  Content="По Возрастанию" 
                                  Style="{StaticResource radioButtonFiltr}"
                                  IsChecked="True"
-                                 FontSize="15"/>
+                                 FontSize="15"
+                                 Checked="OrByRad_Checked"/>
                     <RadioButton x:Name="OrByDisRad" 
                                  Content="По Убыванию"
                                  Style="{StaticResource radioButtonFiltr}"
-                                 FontSize="15"/>
+                                 FontSize="15"
+                                 Checked="OrByDisRad_Checked"/>
                 </StackPanel>
             </Border>
-
-            <Button x:Name="Poisk"
-                    Style="{StaticResource butForm}"
-                    FontSize="20"
-                    Margin="5"
-                    IsDefault="True" 
-                    Grid.Column="2" 
-                    Click="Poisk_Click">Поиск</Button>
 
 
 

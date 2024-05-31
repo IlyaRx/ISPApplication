@@ -5,6 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:ISAuto"
         mc:Ignorable="d"
+        WindowState="Maximized"
         Title="MainWindow" MinHeight="500" Height="450" Width="800"
         Background="#FF4E515A" Closed="Window_Closed">
     <Grid>

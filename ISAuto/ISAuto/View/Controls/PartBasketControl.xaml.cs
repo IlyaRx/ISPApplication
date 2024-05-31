@@ -44,7 +44,7 @@ namespace ISAuto.View.Controls
             AutoPart autoPart = partsStore.AutoPart;
 
             PartName.Text = autoPart.Name;
-            PartPrise.Text = PartsStore.Price.ToString();
+            PartPrise.Text = PartsStore.Price.ToString() + " ₽";
 
 
             if (autoPart.Image != null)
@@ -55,6 +55,7 @@ namespace ISAuto.View.Controls
                 bitmap.UriSource = new Uri(autoPart.Image, UriKind.Absolute);
                 bitmap.EndInit();
                 ImageAutoPart.Source = bitmap;
+                
             }
 
         }
@@ -74,7 +75,7 @@ namespace ISAuto.View.Controls
             if(sender is int quantity)
             {
                 QuantityCost = PartsStore.Price * quantity;
-                PartPrise.Text = Convert.ToString(PartsStore.Price * quantity);
+                PartPrise.Text = Convert.ToString(PartsStore.Price * quantity) + " ₽";
             }
         }
 

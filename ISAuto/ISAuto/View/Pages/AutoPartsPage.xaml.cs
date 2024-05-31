@@ -27,6 +27,8 @@ namespace ISAuto.View.Pages
         private int _typeId;
         private BasketPage _basketPage;
         private bool _flagIsParam;
+        private bool _flagInit = false;
+
 
 
         public AutoPartsPage(int typeId, BasketPage basketPage)
@@ -36,6 +38,7 @@ namespace ISAuto.View.Pages
             _typeId = typeId;
             _basketPage = basketPage;
             FullCatalog();
+            _flagInit = true;
         }
 
         public AutoPartsPage()
@@ -44,6 +47,8 @@ namespace ISAuto.View.Pages
             _flagIsParam = false;
             MainList.Columns = 5;
             FullCatalog();
+            _flagInit = true;
+
         }
 
 
@@ -88,9 +93,23 @@ namespace ISAuto.View.Pages
             }
         }
 
-        private void Poisk_Click(object sender, RoutedEventArgs e)
+        private void TextBoxPoisk_TextChanged(object sender, TextChangedEventArgs e)
         {
+            if (_flagInit)
             FullCatalog((bool)OrByDisRad.IsChecked, TextBoxPoisk.Text);
+        }
+
+        private void OrByRad_Checked(object sender, RoutedEventArgs e)
+        {
+            if (_flagInit)
+
+                FullCatalog(!(bool)OrByRad.IsChecked, TextBoxPoisk.Text);
+        }
+
+        private void OrByDisRad_Checked(object sender, RoutedEventArgs e)
+        {
+            if (_flagInit)
+                FullCatalog((bool)OrByDisRad.IsChecked, TextBoxPoisk.Text);
         }
     }
 }

@@ -1,6 +1,7 @@
 ﻿using ISAuto.Model;
 using ISAuto.View.Pages;
 using System.Windows.Controls;
+using System.Windows.Media.Imaging;
 
 namespace ISAuto.View.Controls
 {
@@ -17,6 +18,17 @@ namespace ISAuto.View.Controls
             InitializeComponent();
             Namecat.Text = typePart.Name;
             _typePart = typePart;
+
+            if (typePart.Imade != null)
+            {
+
+                BitmapImage bitmap = new BitmapImage();
+                bitmap.BeginInit();
+                bitmap.UriSource = new Uri(typePart.Imade, UriKind.Absolute);
+                bitmap.EndInit();
+                ImageTypePart.Source = bitmap;
+            }
+
         }
 
         private void MainButt_Click(object sender, System.Windows.RoutedEventArgs e)
