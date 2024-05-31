@@ -470,6 +470,8 @@ C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\o
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Controls\TypeControl.g.cs
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\AutoPartsPage.g.cs
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\BasketPage.g.cs
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\PaymentPage.g.cs
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\QRCodePage.g.cs
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Windows\AdminWindow.g.cs
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Windows\ClientWindow.g.cs
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Windows\EditPart.g.cs
@@ -487,6 +489,8 @@ C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\o
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Controls\TypeControl.baml
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\AutoPartsPage.baml
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\BasketPage.baml
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\PaymentPage.baml
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\QRCodePage.baml
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Windows\AdminWindow.baml
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Windows\EditPart.baml
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Windows\InfoClientWindow.baml
@@ -503,7 +507,3 @@ C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\o
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\ISAuto.pdb
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\ISAuto.genruntimeconfig.cache
 C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\ref\ISAuto.dll
-C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\PaymentPage.g.cs
-C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\QRCodePage.g.cs
-C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\PaymentPage.baml
-C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\QRCodePage.baml

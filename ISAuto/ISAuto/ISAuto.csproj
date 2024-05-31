@@ -10,14 +10,45 @@
 
   <ItemGroup>
     <None Remove="Resourse\1716142958690q8dmnous.png" />
+    <None Remove="Resourse\BackGround.jpg" />
+    <None Remove="Resourse\Brake.png" />
+    <None Remove="Resourse\DvigatelImage\9032859025438.jpg" />
+    <None Remove="Resourse\DvigatelImage\Forsynka.jpg" />
+    <None Remove="Resourse\DvigatelImage\Forsynka.png" />
+    <None Remove="Resourse\DvigatelImage\GBZ.jpg" />
+    <None Remove="Resourse\DvigatelImage\GBZ.png" />
+    <None Remove="Resourse\DvigatelImage\Gidriki.jpg" />
+    <None Remove="Resourse\DvigatelImage\Gidriki.png" />
+    <None Remove="Resourse\DvigatelImage\Kolenval.jpg" />
+    <None Remove="Resourse\DvigatelImage\Kolenval.png" />
+    <None Remove="Resourse\DvigatelImage\MasloShyp.jpg" />
+    <None Remove="Resourse\DvigatelImage\MasloShyp.png" />
+    <None Remove="Resourse\DvigatelImage\Porshen.jpg" />
+    <None Remove="Resourse\DvigatelImage\Porshen.png" />
+    <None Remove="Resourse\DvigatelImage\Raspredval.jpg" />
+    <None Remove="Resourse\DvigatelImage\Raspredval.png" />
+    <None Remove="Resourse\DvigatelImage\Shatyn.jpg" />
+    <None Remove="Resourse\DvigatelImage\Shatyn.png" />
+    <None Remove="Resourse\DvigatelImage\Svecha.jpg" />
+    <None Remove="Resourse\DvigatelImage\Svecha.png" />
+    <None Remove="Resourse\DvigatelImage\Termostat.jpeg" />
+    <None Remove="Resourse\DvigatelImage\Termostat.png" />
+    <None Remove="Resourse\Electrika.png" />
+    <None Remove="Resourse\Icons\dotpanel.png" />
     <None Remove="Resourse\Icons\Transmissia.png" />
+    <None Remove="Resourse\Icons\Логотип.png" />
+    <None Remove="Resourse\OxlAndTeplo.png" />
+    <None Remove="Resourse\Transmissia.png" />
+    <None Remove="Resourse\Vixlop.png" />
+    <None Remove="Resourse\Двигатель.png" />
     <None Remove="Resourse\лого сбп.png" />
     <None Remove="Resourse\Логотип.png" />
     <None Remove="Resourse\Оплата_qrcode.png" />
     <None Remove="Resourse\СБП_логотип.svg.png" />
   </ItemGroup>
 
-  <ItemGroup>
+
+	<ItemGroup>
     <PackageReference Include="Microsoft.EntityFrameworkCore" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.SqlServer" Version="8.0.5" />
     <PackageReference Include="Microsoft.EntityFrameworkCore.Tools" Version="8.0.5">
@@ -26,13 +57,46 @@
     </PackageReference>
   </ItemGroup>
 
-  <ItemGroup>
-    <Resource Include="Resourse\1716142958690q8dmnous.png" />
-    <Resource Include="Resourse\Icons\Transmissia.png" />
-    <Resource Include="Resourse\лого сбп.png" />
-    <Resource Include="Resourse\Icons\Логотип.png" />
-    <Resource Include="Resourse\Оплата_qrcode.png" />
-    <Resource Include="Resourse\СБП_логотип.svg.png" />
-  </ItemGroup>
+
+	<ItemGroup>
+	  <Resource Include="Resourse\1716142958690q8dmnous.png" />
+	  <Resource Include="Resourse\BackGround.jpg" />
+	  <Resource Include="Resourse\Brake.png" />
+	  <Resource Include="Resourse\DvigatelImage\9032859025438.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\Forsynka.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\Forsynka.png" />
+	  <Resource Include="Resourse\DvigatelImage\GBZ.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\GBZ.png" />
+	  <Resource Include="Resourse\DvigatelImage\Gidriki.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\Gidriki.png" />
+	  <Resource Include="Resourse\DvigatelImage\Kolenval.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\Kolenval.png" />
+	  <Resource Include="Resourse\DvigatelImage\MasloShyp.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\MasloShyp.png" />
+	  <Resource Include="Resourse\DvigatelImage\Porshen.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\Porshen.png" />
+	  <Resource Include="Resourse\DvigatelImage\Raspredval.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\Raspredval.png" />
+	  <Resource Include="Resourse\DvigatelImage\Shatyn.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\Shatyn.png" />
+	  <Resource Include="Resourse\DvigatelImage\Svecha.jpg" />
+	  <Resource Include="Resourse\DvigatelImage\Svecha.png" />
+	  <Resource Include="Resourse\DvigatelImage\Termostat.jpeg" />
+	  <Resource Include="Resourse\DvigatelImage\Termostat.png" />
+	  <Resource Include="Resourse\Electrika.png" />
+	  <Resource Include="Resourse\Icons\dotpanel.png" />
+	  <Resource Include="Resourse\Icons\Transmissia.png" />
+	  <Resource Include="Resourse\Icons\Логотип.png" />
+	  <Resource Include="Resourse\OxlAndTeplo.png" />
+	  <Resource Include="Resourse\Transmissia.png" />
+	  <Resource Include="Resourse\Vixlop.png" />
+	  <Resource Include="Resourse\Двигатель.png" />
+	  <Resource Include="Resourse\лого сбп.png" />
+	  <Resource Include="Resourse\Логотип.png" />
+	  <Resource Include="Resourse\Оплата_qrcode.png" />
+	  <Resource Include="Resourse\СБП_логотип.svg.png" />
+	</ItemGroup>
+
+
 
 </Project>

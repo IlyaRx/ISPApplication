@@ -1,6 +1,7 @@
 ﻿using ISAuto.Model;
 using ISAuto.View.Controls;
 using ISAuto.View.Pages;
+using System.IO;
 using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Forms;
@@ -66,5 +67,7 @@ namespace ISAuto.View.Windows
             _flag = false;
             this.Close();
         }
+
+       
     }
 }
