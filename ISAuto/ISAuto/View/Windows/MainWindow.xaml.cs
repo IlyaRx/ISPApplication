@@ -20,7 +20,6 @@ namespace ISAuto.View.Windows
     {
         public MainWindow()
         {
-            DirectoryResourse();
             InitializeComponent();
         }
 
@@ -60,33 +59,6 @@ namespace ISAuto.View.Windows
             System.Windows.Application.Current.Shutdown();
         }
 
-        private void DirectoryResourse()
-        {
-            Directory.SetCurrentDirectory(AppDomain.CurrentDomain.BaseDirectory);
-            string sourceDirectory = System.IO.Path.GetFullPath(@"..\..\..\Resourse");
-
-            string destinationDirectory = @"C:\Resourse";
-
-            if (Directory.Exists(destinationDirectory))
-                return;
-            if (Directory.Exists(sourceDirectory))
-            {
-                Directory.CreateDirectory(destinationDirectory);
-                CopyDirectory(sourceDirectory, destinationDirectory);
-            }
-        }
-
-        private void CopyDirectory(string sourceDir, string destinationDir)
-        {
-            foreach (string dirPath in Directory.GetDirectories(sourceDir, "*", SearchOption.AllDirectories))
-            {
-                Directory.CreateDirectory(dirPath.Replace(sourceDir, destinationDir));
-            }
-
-            foreach (string newPath in Directory.GetFiles(sourceDir, "*.*", SearchOption.AllDirectories))
-            {
-                File.Copy(newPath, newPath.Replace(sourceDir, destinationDir), true);
-            }
-        }
+       
     }
 }

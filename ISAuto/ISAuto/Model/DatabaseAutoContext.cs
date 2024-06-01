@@ -39,7 +39,7 @@ public partial class DatabaseAutoContext : DbContext
 
     protected override void OnConfiguring(DbContextOptionsBuilder optionsBuilder)
 #warning To protect potentially sensitive information in your connection string, you should move it out of source code. You can avoid scaffolding the connection string by using the Name= syntax to read it from configuration - see https://go.microsoft.com/fwlink/?linkid=2131148. For more guidance on storing connection strings, see https://go.microsoft.com/fwlink/?LinkId=723263.
-        => optionsBuilder.UseSqlServer("Server=ILYA_PC\\SQLEXPRESS;Database=DatabaseAuto;Trusted_Connection=True;TrustServerCertificate=True");
+        => optionsBuilder.UseSqlServer("Server=DESKTOP-9G1JMCS\\SQLEXPRESS;Database=DatabaseAuto;Trusted_Connection=True;TrustServerCertificate=True");
 
     protected override void OnModelCreating(ModelBuilder modelBuilder)
     {
@@ -47,12 +47,9 @@ public partial class DatabaseAutoContext : DbContext
         {
             entity.HasKey(e => e.Id).HasName("PK_CarParts");
 
-            entity.Property(e => e.Id).ValueGeneratedNever();
-            entity.Property(e => e.Description)
-                .HasMaxLength(1000)
-                .IsUnicode(false);
+            entity.Property(e => e.Description).IsUnicode(false);
             entity.Property(e => e.Image)
-                .HasMaxLength(50)
+                .HasMaxLength(100)
                 .IsUnicode(false);
             entity.Property(e => e.ManufacturerId).HasColumnName("ManufacturerID");
             entity.Property(e => e.Name)

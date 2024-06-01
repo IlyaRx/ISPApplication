@@ -89,7 +89,7 @@ namespace ISAuto.View.Pages
 
             }catch (Exception ex)
             {
-                MessageBox.Show("Ошибка)");
+                MessageBox.Show("Ошибка)" + ex.ToString());
             }
         }
 

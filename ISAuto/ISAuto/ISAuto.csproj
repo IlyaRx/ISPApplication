@@ -34,7 +34,6 @@
     <None Remove="Resourse\DvigatelImage\Termostat.jpeg" />
     <None Remove="Resourse\DvigatelImage\Termostat.png" />
     <None Remove="Resourse\Electrika.png" />
-    <None Remove="Resourse\Icons\dotpanel.png" />
     <None Remove="Resourse\Icons\Transmissia.png" />
     <None Remove="Resourse\Icons\Логотип.png" />
     <None Remove="Resourse\OxlAndTeplo.png" />
@@ -84,7 +83,6 @@
 	  <Resource Include="Resourse\DvigatelImage\Termostat.jpeg" />
 	  <Resource Include="Resourse\DvigatelImage\Termostat.png" />
 	  <Resource Include="Resourse\Electrika.png" />
-	  <Resource Include="Resourse\Icons\dotpanel.png" />
 	  <Resource Include="Resourse\Icons\Transmissia.png" />
 	  <Resource Include="Resourse\Icons\Логотип.png" />
 	  <Resource Include="Resourse\OxlAndTeplo.png" />

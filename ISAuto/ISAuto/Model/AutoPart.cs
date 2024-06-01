@@ -7,15 +7,15 @@ public partial class AutoPart
 {
     public int Id { get; set; }
 
-    public int ManufacturerId { get; set; }
+    public string Name { get; set; } = null!;
 
     public int TypeId { get; set; }
-
-    public string Name { get; set; } = null!;
 
     public decimal PurchasePrise { get; set; }
 
     public string? Image { get; set; }
+
+    public int ManufacturerId { get; set; }
 
     public string? Description { get; set; }
 
