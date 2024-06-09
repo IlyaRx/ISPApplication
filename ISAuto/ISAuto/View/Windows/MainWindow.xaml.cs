@@ -43,18 +43,21 @@ namespace ISAuto.View.Windows
         {
             try
             {
-                AdminWindow adminWindow = new AdminWindow();
-                adminWindow.Show();
-                this.Hide();
-                return;
-
-
                 Employee employee = DatabaseAutoContext.GetContext().Employees.FirstOrDefault(e => e.Login == Login.Text && e.Password == PasswordPlant.Password);
                 if (employee == null)
                 {
                     System.Windows.Forms.MessageBox.Show("Введён не верный логин или пароль!");
                     PasswordPlant.Password = "";
                     Login.Text = "";
+                    LablePassword.Visibility = Visibility.Visible;
+                    return;
+                }
+                else
+                {
+                    AdminWindow adminWindow = new AdminWindow();
+                    adminWindow.Show();
+                    this.Hide();
+                    return;
                 }
 
             }catch (Exception ex)
@@ -69,6 +72,7 @@ namespace ISAuto.View.Windows
         {
             if(PasswordPlant.Password.Length != 0)
                 LablePassword.Visibility = Visibility.Collapsed;
+            else { LablePassword.Visibility = Visibility.Visible; }
         }
 
         private void Window_Closed(object sender, EventArgs e)

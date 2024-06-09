@@ -6,6 +6,7 @@
     <Nullable>enable</Nullable>
     <ImplicitUsings>enable</ImplicitUsings>
     <UseWPF>true</UseWPF>
+    <ApplicationIcon>Логотип.ico</ApplicationIcon>
   </PropertyGroup>
 
   <ItemGroup>
@@ -44,6 +45,10 @@
     <None Remove="Resourse\Логотип.png" />
     <None Remove="Resourse\Оплата_qrcode.png" />
     <None Remove="Resourse\СБП_логотип.svg.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Content Include="Логотип.ico" />
   </ItemGroup>
 
 

@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:ISAuto.View.Windows"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
+        WindowStyle="ToolWindow"
         ResizeMode="NoResize"
-        Title="EditPart" Height="600" Width="300">
+        Title="Редактирование" Height="600" Width="300">
     <Grid Background="#FF8A8C92">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
@@ -83,7 +84,7 @@
 
         <TextBox x:Name="Prise"
                  Margin="0 22 0 0"
-                 Text="Цена"
+                 Text="0"
                  Grid.Column="0"
                  FontSize="15"
                  Style="{StaticResource TextBoxBrown}"/>
@@ -96,7 +97,7 @@
 
             <TextBox x:Name="PurchasePrise"
                      Margin="0 22 0 0"
-                     Text="Цена"
+                     Text="0"
                      Grid.Column="1"
                      FontSize="15"
                      Style="{StaticResource TextBoxBrown}"/>
@@ -114,7 +115,7 @@
         <TextBox x:Name="Quantity" 
                  Grid.Row="4"
                  Margin="0 22 0 0"
-                 Text="Количество"
+                 Text="0"
                  FontSize="15"
                  Style="{StaticResource TextBoxBrown}"/>
 

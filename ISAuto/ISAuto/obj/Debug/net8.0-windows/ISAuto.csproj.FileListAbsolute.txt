@@ -511,3 +511,4 @@ C:\Users\ilyac\Desktop\Git\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows
 C:\Users\ilyac\Desktop\Git\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\QRCodePage.g.cs
 C:\Users\ilyac\Desktop\Git\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\PaymentPage.baml
 C:\Users\ilyac\Desktop\Git\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\View\Pages\QRCodePage.baml
+C:\Users\ilyac\OneDrive\Документы\GitHub\ISPApplication\ISAuto\ISAuto\obj\Debug\net8.0-windows\ISAuto_Content.g.cs

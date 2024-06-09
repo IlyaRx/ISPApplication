@@ -29,6 +29,7 @@
                                    Padding="5 0 0 2"
                                    Visibility="Collapsed"/>
                             <ScrollViewer x:Name="PART_ContentHost" 
+                                          Margin="5 0 0 0"
                                           VerticalAlignment="Center"
                                           HorizontalScrollBarVisibility="Hidden" 
                                           VerticalScrollBarVisibility="Hidden"/>
@@ -69,6 +70,7 @@
                             Width="{TemplateBinding Width}">
                         <Grid>
                             <ScrollViewer x:Name="PART_ContentHost" 
+                                          Margin="5 0 0 0"
                                            VerticalAlignment="Center"
                                           HorizontalScrollBarVisibility="Hidden" 
                                           VerticalScrollBarVisibility="Hidden"/>

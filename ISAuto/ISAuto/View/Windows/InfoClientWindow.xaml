@@ -6,8 +6,9 @@
         xmlns:local="clr-namespace:ISAuto.View.Windows"
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
+        WindowStyle="ToolWindow"
         ResizeMode="NoResize"
-        Title="InfoWindow" MinHeight="450" Width="300">
+        Title="Информация" MinHeight="450" Width="300">
     <Grid Margin="10 0 10 0">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
