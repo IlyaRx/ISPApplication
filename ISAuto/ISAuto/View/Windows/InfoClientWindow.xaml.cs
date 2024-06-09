@@ -1,18 +1,7 @@
 ﻿using ISAuto.Model;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
-using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Shapes;
-
+using System.IO;
 namespace ISAuto.View.Windows
 {
     /// <summary>
@@ -30,7 +19,7 @@ namespace ISAuto.View.Windows
             {
                 BitmapImage bitmap = new BitmapImage();
                 bitmap.BeginInit();
-                bitmap.UriSource = new Uri(autoPart.Image, UriKind.Absolute);
+                bitmap.UriSource = new Uri(Path.GetFullPath(autoPart.Image), UriKind.Absolute);
                 bitmap.EndInit();
                 ImageIcon.Source = bitmap;
             }

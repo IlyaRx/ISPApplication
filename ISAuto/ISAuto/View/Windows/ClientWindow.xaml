@@ -46,7 +46,7 @@
                 <Grid Background="#FFDADADA">
                     <TextBlock Grid.Column="1" Style="{StaticResource textBlockBrownTitle}"
                                VerticalAlignment="Center"
-                               Text="Название магазина"/>
+                               Text="Запчасти из Рая"/>
 
                     <Grid>
                         <Grid.ColumnDefinitions>

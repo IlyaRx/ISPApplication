@@ -67,7 +67,5 @@ namespace ISAuto.View.Windows
             _flag = false;
             this.Close();
         }
-
-       
     }
 }

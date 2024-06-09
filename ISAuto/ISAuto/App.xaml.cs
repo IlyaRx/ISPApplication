@@ -14,7 +14,7 @@ namespace ISAuto
      
         private App()
         {
-            DirectoryResourse();
+            //DirectoryResourse();
         }
 
 
@@ -25,11 +25,13 @@ namespace ISAuto
 
             string destinationDirectory = @"C:\AutoResourse";
 
-            if (FoldersDiffer(sourceDirectory, destinationDirectory))
-                DeleteDirectory(destinationDirectory);
 
             if (Directory.Exists(destinationDirectory))
+            {
+                if (FoldersDiffer(sourceDirectory, destinationDirectory))
+                    DeleteDirectory(destinationDirectory);
                 return;
+            }
             if (Directory.Exists(sourceDirectory))
             {
                 Directory.CreateDirectory(destinationDirectory);

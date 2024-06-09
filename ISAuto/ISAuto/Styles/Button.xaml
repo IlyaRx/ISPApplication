@@ -105,11 +105,14 @@
     <Style x:Key="butFormGreyMono" TargetType="Button">
         <Setter Property="FontSize" Value="25"/>
         <Setter Property="Foreground" Value="LightGray"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="BorderBrush" Value="LightGray"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
                     <Border x:Name="border"
-                            BorderThickness="0"
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
                             Background="#FF484848">
                         <Label Content="{TemplateBinding Content}"
                                Margin="2 -13 2 -10"
@@ -138,12 +141,15 @@
     <Style x:Key="butFormGreyMonoRad" TargetType="Button">
         <Setter Property="FontSize" Value="25"/>
         <Setter Property="Foreground" Value="LightGray"/>
+        <Setter Property="BorderThickness" Value="0"/>
+        <Setter Property="BorderBrush" Value="LightGray"/>
         <Setter Property="Template">
             <Setter.Value>
                 <ControlTemplate TargetType="Button">
-                    <Border x:Name="border"
-                        BorderThickness="0"
-                        Background="#FF484848"
+                    <Border x:Name="border"                            
+                            BorderThickness="{TemplateBinding BorderThickness}"
+                            BorderBrush="{TemplateBinding BorderBrush}"
+                            Background="#FF484848"
                             CornerRadius="10">
                         <Label Content="{TemplateBinding Content}"
                            Margin="2 -13 2 -10"

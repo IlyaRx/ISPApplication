@@ -1,5 +1,5 @@
 ﻿using ISAuto.Model;
-using ISAuto.View.Pages;
+using System.IO;
 using System.Windows.Controls;
 using System.Windows.Media.Imaging;
 
@@ -24,7 +24,7 @@ namespace ISAuto.View.Controls
 
                 BitmapImage bitmap = new BitmapImage();
                 bitmap.BeginInit();
-                bitmap.UriSource = new Uri(typePart.Imade, UriKind.Absolute);
+                bitmap.UriSource = new Uri(Path.GetFullPath(typePart.Imade), UriKind.Absolute);
                 bitmap.EndInit();
                 ImageTypePart.Source = bitmap;
             }

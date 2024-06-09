@@ -3,12 +3,140 @@
   "WorkspaceRootPath": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partcatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partcatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\editpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\editpart.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partcatalogadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partcatalogadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partcatalogadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partcatalogadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partbasketcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
       "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partbasketcontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partcatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partcatalog.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partcatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partcatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\qrcodepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\qrcodepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\paymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\paymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\autopartspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\autopartspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\editpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\editpart.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partbasketcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partbasketcontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\picercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\picercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\typecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\typecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\adminwindow.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\infoclientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\infoclientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\autopartspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\autopartspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\styles\\textblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\styles\\textblock.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\styles\\textbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\styles\\textbox.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\paymentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\paymentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\basketpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\basketpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\picercontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\picercontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\typecontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\typecontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\clientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\clientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\infoclientwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\infoclientwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\app.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\app.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\styles\\button.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\model\\databaseautocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\model\\databaseautocontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\model\\additionsslcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\model\\additionsslcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\clientwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\clientwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
+      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
     },
     {
       "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\resourse\\icons\\transmissia.png||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -27,80 +155,8 @@
       "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\resourse\\background.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\mainwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\isauto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\isauto.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\clientwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\clientwindow.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\mainwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\clientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\clientwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\basketpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\basketpage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partcatalogadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partcatalogadmin.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\autopartspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\autopartspage.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\autopartspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\autopartspage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\typecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\typecontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\picercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\picercontrol.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partcatalogadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partcatalogadmin.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\partcatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\partcatalog.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\controls\\picercontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\controls\\picercontrol.xaml.cs||{8B382828-6202-11D1-8870-0000F87579D2}|"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\windows\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\windows\\adminwindow.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\paymentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\paymentpage.xaml.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\paymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\paymentpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\qrcodepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\qrcodepage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|c:\\users\\ilyac\\onedrive\\\u0434\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\github\\ispapplication\\isauto\\isauto\\view\\pages\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}",
-      "RelativeMoniker": "D:0:0:{2DD8CA90-39C5-4001-9433-3392771CD03F}|ISAuto\\ISAuto.csproj|solutionrelative:isauto\\view\\pages\\basketpage.xaml||{F11ACC28-31D1-4C80-A34B-F4E09D3D753C}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Recourse\\Brake.jpg||{177559E0-D141-11D0-92DF-00A0C9138C45}",
@@ -117,8 +173,8 @@
       "VerticalTabListWidth": 116,
       "DocumentGroups": [
         {
-          "DockedWidth": 356,
-          "SelectedChildIndex": 21,
+          "DockedWidth": 316,
+          "SelectedChildIndex": 9,
           "Children": [
             {
               "$type": "Bookmark",
@@ -126,7 +182,179 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 25,
+              "Title": "InfoClientWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\InfoClientWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\InfoClientWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\InfoClientWindow.xaml.cs",
+              "RelativeToolTip": "ISAuto\\View\\Windows\\InfoClientWindow.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABUAAABLAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:44:24Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "TypeControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\TypeControl.xaml.cs",
+              "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\TypeControl.xaml.cs",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\TypeControl.xaml.cs",
+              "RelativeToolTip": "ISAuto\\View\\Controls\\TypeControl.xaml.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAATAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T11:36:06.82Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "App.xaml",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\App.xaml",
+              "RelativeDocumentMoniker": "ISAuto\\App.xaml",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\App.xaml",
+              "RelativeToolTip": "ISAuto\\App.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T10:44:41.173Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "AdminWindow.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\AdminWindow.xaml.cs",
+              "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\AdminWindow.xaml.cs",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\AdminWindow.xaml.cs",
+              "RelativeToolTip": "ISAuto\\View\\Windows\\AdminWindow.xaml.cs",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAAC8AAAAKAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:30:12.359Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "Button.xaml",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Styles\\Button.xaml",
+              "RelativeDocumentMoniker": "ISAuto\\Styles\\Button.xaml",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Styles\\Button.xaml",
+              "RelativeToolTip": "ISAuto\\Styles\\Button.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T10:25:52.996Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "EditPart.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\EditPart.xaml.cs",
+              "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\EditPart.xaml.cs",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\EditPart.xaml.cs",
+              "RelativeToolTip": "ISAuto\\View\\Windows\\EditPart.xaml.cs",
+              "ViewState": "AQIAABsAAAAAAAAAAAAtwCEAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:17:14.488Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "TextBox.xaml",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Styles\\TextBox.xaml",
+              "RelativeDocumentMoniker": "ISAuto\\Styles\\TextBox.xaml",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Styles\\TextBox.xaml",
+              "RelativeToolTip": "ISAuto\\Styles\\TextBox.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T10:14:01.329Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "TextBlock.xaml",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Styles\\TextBlock.xaml",
+              "RelativeDocumentMoniker": "ISAuto\\Styles\\TextBlock.xaml",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Styles\\TextBlock.xaml",
+              "RelativeToolTip": "ISAuto\\Styles\\TextBlock.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T10:13:48.08Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "EditPart.xaml",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\EditPart.xaml",
+              "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\EditPart.xaml",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\EditPart.xaml",
+              "RelativeToolTip": "ISAuto\\View\\Windows\\EditPart.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T10:11:06.76Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "AdditionsslContext.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Model\\AdditionsslContext.cs",
+              "RelativeDocumentMoniker": "ISAuto\\Model\\AdditionsslContext.cs",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Model\\AdditionsslContext.cs",
+              "RelativeToolTip": "ISAuto\\Model\\AdditionsslContext.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:06:45.047Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "DatabaseAutoContext.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Model\\DatabaseAutoContext.cs",
+              "RelativeDocumentMoniker": "ISAuto\\Model\\DatabaseAutoContext.cs",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Model\\DatabaseAutoContext.cs",
+              "RelativeToolTip": "ISAuto\\Model\\DatabaseAutoContext.cs",
+              "ViewState": "AQIAABMAAAAAAAAAAIA4wCkAAAA0AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T10:05:31.816Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "InfoClientWindow.xaml",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\InfoClientWindow.xaml",
+              "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\InfoClientWindow.xaml",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\InfoClientWindow.xaml",
+              "RelativeToolTip": "ISAuto\\View\\Windows\\InfoClientWindow.xaml",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
+              "WhenOpened": "2024-06-09T09:55:21.303Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "App.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\App.xaml.cs",
+              "RelativeDocumentMoniker": "ISAuto\\App.xaml.cs",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\App.xaml.cs",
+              "RelativeToolTip": "ISAuto\\App.xaml.cs",
+              "ViewState": "AQIAAAQAAAAAAAAAAAApwCUAAABFAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-09T09:51:17.58Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "PartBasketControl.xaml.cs",
+              "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartBasketControl.xaml.cs",
+              "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\PartBasketControl.xaml.cs",
+              "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartBasketControl.xaml.cs",
+              "RelativeToolTip": "ISAuto\\View\\Controls\\PartBasketControl.xaml.cs",
+              "ViewState": "AQIAADAAAAAAAAAAAAAgwEkAAAAMAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-06-03T07:28:18.69Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "PartBasketControl.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartBasketControl.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\PartBasketControl.xaml",
@@ -138,7 +366,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 35,
               "Title": "dotpanel.png - PNG [512x512, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Resourse\\Icons\\dotpanel.png",
               "RelativeDocumentMoniker": "ISAuto\\Resourse\\Icons\\dotpanel.png",
@@ -150,7 +378,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 36,
               "Title": "\u041B\u043E\u0433\u043E\u0442\u0438\u043F.png - PNG [1024x1024, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Resourse\\Icons\\\u041B\u043E\u0433\u043E\u0442\u0438\u043F.png",
               "RelativeDocumentMoniker": "ISAuto\\Resourse\\Icons\\\u041B\u043E\u0433\u043E\u0442\u0438\u043F.png",
@@ -162,7 +390,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 34,
               "Title": "Transmissia.png - PNG [225x225, 32-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, PNG]",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Resourse\\Icons\\Transmissia.png",
               "RelativeDocumentMoniker": "ISAuto\\Resourse\\Icons\\Transmissia.png",
@@ -174,7 +402,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 37,
               "Title": "BackGround.jpg - Bitmap [1920x787, 24-\u0440\u0430\u0437\u0440\u044F\u0434\u043D\u043E\u0435, JPG]",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Resourse\\BackGround.jpg",
               "RelativeDocumentMoniker": "ISAuto\\Resourse\\BackGround.jpg",
@@ -186,20 +414,19 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 33,
               "Title": "MainWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\MainWindow.xaml.cs",
               "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\MainWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\MainWindow.xaml.cs",
               "RelativeToolTip": "ISAuto\\View\\Windows\\MainWindow.xaml.cs",
-              "ViewState": "AQIAAC4AAAAAAAAAAAArwD4AAAAoAAAA",
+              "ViewState": "AQIAABIAAAAAAAAAAAASwB4AAAAcAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T17:49:54.375Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-05-31T17:49:54.375Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
+              "DocumentIndex": 26,
               "Title": "MainWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\MainWindow.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\MainWindow.xaml",
@@ -210,7 +437,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 38,
               "Title": "ISAuto.csproj",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\ISAuto.csproj",
               "RelativeDocumentMoniker": "ISAuto\\ISAuto.csproj",
@@ -222,89 +449,96 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 22,
               "Title": "PicerControl.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PicerControl.xaml.cs",
               "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\PicerControl.xaml.cs",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PicerControl.xaml.cs",
               "RelativeToolTip": "ISAuto\\View\\Controls\\PicerControl.xaml.cs",
-              "ViewState": "AQIAABkAAAAAAAAAAAAQwC4AAAAAAAAA",
+              "ViewState": "AQIAAB0AAAAAAAAAAAA3wCEAAAAkAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T14:48:57.534Z"
+              "WhenOpened": "2024-05-31T14:48:57.534Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 1,
               "Title": "PartCatalogAdmin.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartCatalogAdmin.xaml.cs",
               "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\PartCatalogAdmin.xaml.cs",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartCatalogAdmin.xaml.cs",
               "RelativeToolTip": "ISAuto\\View\\Controls\\PartCatalogAdmin.xaml.cs",
-              "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAABIAAAA",
+              "ViewState": "AQIAABkAAAAAAAAAAAAQwD0AAABGAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-31T14:47:43.674Z"
+              "WhenOpened": "2024-05-31T14:47:43.674Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
+              "DocumentIndex": 20,
               "Title": "PaymentPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\PaymentPage.xaml.cs",
               "RelativeDocumentMoniker": "ISAuto\\View\\Pages\\PaymentPage.xaml.cs",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\PaymentPage.xaml.cs",
               "RelativeToolTip": "ISAuto\\View\\Pages\\PaymentPage.xaml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAAAB0AAAAtAAAA",
+              "ViewState": "AQIAABUAAAAAAAAAAAAAACcAAAAMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T08:34:40.331Z"
+              "WhenOpened": "2024-05-30T08:34:40.331Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
+              "DocumentIndex": 21,
               "Title": "BasketPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\BasketPage.xaml.cs",
               "RelativeDocumentMoniker": "ISAuto\\View\\Pages\\BasketPage.xaml.cs",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\BasketPage.xaml.cs",
               "RelativeToolTip": "ISAuto\\View\\Pages\\BasketPage.xaml.cs",
-              "ViewState": "AQIAAAwAAAAAAAAAAAAWwCEAAAAIAAAA",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB0AAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-30T08:28:18.356Z"
+              "WhenOpened": "2024-05-30T08:28:18.356Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 6,
               "Title": "QRCodePage.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\QRCodePage.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Pages\\QRCodePage.xaml",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\QRCodePage.xaml",
               "RelativeToolTip": "ISAuto\\View\\Pages\\QRCodePage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-30T07:33:21.955Z"
+              "WhenOpened": "2024-05-30T07:33:21.955Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 7,
               "Title": "PaymentPage.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\PaymentPage.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Pages\\PaymentPage.xaml",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\PaymentPage.xaml",
               "RelativeToolTip": "ISAuto\\View\\Pages\\PaymentPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-30T06:47:21.37Z"
+              "WhenOpened": "2024-05-30T06:47:21.37Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 5,
               "Title": "PartCatalog.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartCatalog.xaml.cs",
               "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\PartCatalog.xaml.cs",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartCatalog.xaml.cs",
               "RelativeToolTip": "ISAuto\\View\\Controls\\PartCatalog.xaml.cs",
-              "ViewState": "AQIAABUAAAAAAAAAAAAuwCYAAAAAAAAA",
+              "ViewState": "AQIAAA8AAAAAAAAAAAAawDoAAAAJAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-29T08:22:32.771Z"
+              "WhenOpened": "2024-05-29T08:22:32.771Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 39,
               "Title": "Brake.jpg",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Recourse\\Brake.jpg",
               "RelativeDocumentMoniker": "ISAuto\\Recourse\\Brake.jpg",
@@ -315,7 +549,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 40,
               "Title": "BackGround.jpg",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\Recourse\\BackGround.jpg",
               "RelativeDocumentMoniker": "ISAuto\\Recourse\\BackGround.jpg",
@@ -326,30 +560,32 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "AutoPartsPage.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\AutoPartsPage.xaml.cs",
               "RelativeDocumentMoniker": "ISAuto\\View\\Pages\\AutoPartsPage.xaml.cs",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\AutoPartsPage.xaml.cs",
               "RelativeToolTip": "ISAuto\\View\\Pages\\AutoPartsPage.xaml.cs",
-              "ViewState": "AQIAAEcAAAAAAAAAAAAjwG4AAAAaAAAA",
+              "ViewState": "AQIAACYAAAAAAAAAAAAawDQAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-05-27T08:49:43.346Z"
+              "WhenOpened": "2024-05-27T08:49:43.346Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 2,
               "Title": "PartCatalogAdmin.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartCatalogAdmin.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\PartCatalogAdmin.xaml",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartCatalogAdmin.xaml",
               "RelativeToolTip": "ISAuto\\View\\Controls\\PartCatalogAdmin.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-27T07:38:38.431Z"
+              "WhenOpened": "2024-05-27T07:38:38.431Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 12,
               "Title": "PicerControl.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PicerControl.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\PicerControl.xaml",
@@ -361,7 +597,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 4,
               "Title": "PartCatalog.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\PartCatalog.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\PartCatalog.xaml",
@@ -373,63 +609,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 9,
               "Title": "AutoPartsPage.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\AutoPartsPage.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Pages\\AutoPartsPage.xaml",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\AutoPartsPage.xaml",
               "RelativeToolTip": "ISAuto\\View\\Pages\\AutoPartsPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-27T07:38:38.457Z"
+              "WhenOpened": "2024-05-27T07:38:38.457Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 8,
               "Title": "BasketPage.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\BasketPage.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Pages\\BasketPage.xaml",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Pages\\BasketPage.xaml",
               "RelativeToolTip": "ISAuto\\View\\Pages\\BasketPage.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-27T07:38:38.46Z"
+              "WhenOpened": "2024-05-27T07:38:38.46Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 13,
               "Title": "TypeControl.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\TypeControl.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Controls\\TypeControl.xaml",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Controls\\TypeControl.xaml",
               "RelativeToolTip": "ISAuto\\View\\Controls\\TypeControl.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-27T07:38:38.463Z"
+              "WhenOpened": "2024-05-27T07:38:38.463Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 32,
               "Title": "ClientWindow.xaml.cs",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\ClientWindow.xaml.cs",
               "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\ClientWindow.xaml.cs",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\ClientWindow.xaml.cs",
               "RelativeToolTip": "ISAuto\\View\\Windows\\ClientWindow.xaml.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABMAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAuwCYAAAAQAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-05-27T07:38:38.468Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 14,
               "Title": "AdminWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\AdminWindow.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\AdminWindow.xaml",
               "ToolTip": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\AdminWindow.xaml",
               "RelativeToolTip": "ISAuto\\View\\Windows\\AdminWindow.xaml",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003549|",
-              "WhenOpened": "2024-05-27T07:38:38.472Z"
+              "WhenOpened": "2024-05-27T07:38:38.472Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 24,
               "Title": "ClientWindow.xaml",
               "DocumentMoniker": "C:\\Users\\ilyac\\OneDrive\\\u0414\u043E\u043A\u0443\u043C\u0435\u043D\u0442\u044B\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\View\\Windows\\ClientWindow.xaml",
               "RelativeDocumentMoniker": "ISAuto\\View\\Windows\\ClientWindow.xaml",

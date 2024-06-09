@@ -25,7 +25,7 @@
                            FontSize="15"
                            Foreground="#FF3B3B3E"
                            Style="{StaticResource textBlockLightGoldTitle}"
-                           Text="Колличество" />
+                           Text="Количество" />
 
 
                     <TextBlock x:Name="TextQuant"

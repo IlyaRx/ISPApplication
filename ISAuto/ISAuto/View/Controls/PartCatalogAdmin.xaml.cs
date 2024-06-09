@@ -1,20 +1,9 @@
 ﻿using ISAuto.Model;
-using ISAuto.View.Pages;
 using ISAuto.View.Windows;
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 using System.Windows;
 using System.Windows.Controls;
-using System.Windows.Data;
-using System.Windows.Documents;
-using System.Windows.Input;
-using System.Windows.Media;
 using System.Windows.Media.Imaging;
-using System.Windows.Navigation;
-using System.Windows.Shapes;
+using System.IO;
 
 namespace ISAuto.View.Controls
 {
@@ -24,33 +13,55 @@ namespace ISAuto.View.Controls
     public partial class PartCatalogAdmin : UserControl
     {
         private PartsInStore _partsInStore;
+        private AutoPart _autoPart;
         public PartCatalogAdmin(PartsInStore carPartsStor)
         {
 
             InitializeComponent();
-            AutoPart autoPart = carPartsStor.AutoPart;
+            _autoPart = carPartsStor.AutoPart;
             _partsInStore = carPartsStor;
 
-            PartName.Text = autoPart.Name;
+            PartName.Text = _autoPart.Name;
             PartPrise.Text = carPartsStor.Price.ToString() + " ₽";
             PartQuantity.Text = carPartsStor.Quantity.ToString() + " шт.";
 
+            
 
-            if (autoPart.Image != null)
+            if (_autoPart.Image != null)
             {
                 BitmapImage bitmap = new BitmapImage();
                 bitmap.BeginInit();
-                bitmap.UriSource = new Uri(autoPart.Image, UriKind.Absolute);
+                bitmap.UriSource = new Uri(Path.GetFullPath(_autoPart.Image), UriKind.Absolute);
                 bitmap.EndInit();
                 ImageAutoPart.Source = bitmap;
             }
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
-        {
-            EditPart infoClientWindow = new EditPart(_partsInStore);
-            infoClientWindow.ShowDialog();
+        private void Button_Click(object sender, RoutedEventArgs e) {
+            var editPart= new EditPart(_partsInStore, Window.GetWindow(this) as AdminWindow);
+            editPart.ShowDialog();
+        }
 
+        private void ButDelete_Click(object sender, RoutedEventArgs e)
+        {
+            System.Windows.Forms.DialogResult result = System.Windows.Forms.MessageBox.Show(
+                "Вы точно хотите удалить товар?",
+                "Сообщение",
+                System.Windows.Forms.MessageBoxButtons.YesNo);
+
+            if (result == System.Windows.Forms.DialogResult.Yes)
+            {
+                var partsInStore = DatabaseAutoContext.GetContext().PartsInStores.First(p => p == _partsInStore);
+                var autoParts = DatabaseAutoContext.GetContext().AutoParts.First(a => a == _autoPart);
+
+                DatabaseAutoContext.GetContext().PartsInStores.Remove(partsInStore);
+                DatabaseAutoContext.GetContext().AutoParts.Remove(autoParts);
+
+                DatabaseAutoContext.GetContext().SaveChanges();
+
+                if (Window.GetWindow(this) is AdminWindow adminWindow)
+                    adminWindow.Update();
+            }
         }
     }
 }

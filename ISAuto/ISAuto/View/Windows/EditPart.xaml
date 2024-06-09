@@ -7,10 +7,11 @@
         mc:Ignorable="d"
         WindowStartupLocation="CenterScreen"
         ResizeMode="NoResize"
-        Title="EditPart" Height="500" Width="300">
+        Title="EditPart" Height="600" Width="300">
     <Grid Background="#FF8A8C92">
         <Grid.RowDefinitions>
             <RowDefinition Height="2*"/>
+            <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
             <RowDefinition/>
@@ -24,7 +25,7 @@
                 <ColumnDefinition Width="1.5*"/>
             </Grid.ColumnDefinitions>
 
-            <Image Grid.Column="0" Height="100" Width="100" x:Name="ImageIcon" Source="/Resourse/Icons/Transmissia.png"/>
+            <Image Grid.Column="0" Height="100" Width="100" x:Name="ImageIcon" Source="/Resourse/Icons/Transmissia.png" />
 
             <TextBox x:Name="Name" 
                      FontSize="20"
@@ -53,36 +54,71 @@
                   Foreground="Black"
                   Style="{StaticResource ComoBoxS1}"/>
 
+        <Border Grid.Row="2"
+        BorderBrush="White"
+        BorderThickness="0 1 0 0">
+            <TextBlock Text="Тип оборудования" 
+               Margin="5 0 0 0"
+               FontSize="15"
+               Foreground="White"/>
+        </Border>
+
+        <ComboBox x:Name="TypePart" 
+                  Grid.Row="2" 
+                  FontSize="15"
+                  Margin="0 22 0 0"
+                  Foreground="Black"
+                  Style="{StaticResource ComoBoxS1}"/>
+
+        <Grid Grid.Row="3">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
         <TextBlock Text="Цена" 
-                   Grid.Row="2"
+                   Grid.Column="0"
                    Margin="5 0 0 0"
                    FontSize="15"
                    Foreground="White"/>
 
         <TextBox x:Name="Prise"
                  Margin="0 22 0 0"
-                 Grid.Row="2" 
                  Text="Цена"
+                 Grid.Column="0"
                  FontSize="15"
                  Style="{StaticResource TextBoxBrown}"/>
 
-        <Border Grid.Row="3"
+            <TextBlock Text="Закупочная цена" 
+                       Grid.Column="1"
+                       Margin="5 0 0 0"
+                       FontSize="15"
+                       Foreground="White"/>
+
+            <TextBox x:Name="PurchasePrise"
+                     Margin="0 22 0 0"
+                     Text="Цена"
+                     Grid.Column="1"
+                     FontSize="15"
+                     Style="{StaticResource TextBoxBrown}"/>
+        </Grid>
+
+        <Border Grid.Row="4"
                 BorderBrush="White"
                 BorderThickness="0 1 0 0">
-            <TextBlock Text="Колличество" 
+            <TextBlock Text="Количество" 
                        Margin="5 0 0 0"
                        FontSize="15"
                        Foreground="White"/>
         </Border>
 
         <TextBox x:Name="Quantity" 
-                 Grid.Row="3"
+                 Grid.Row="4"
                  Margin="0 22 0 0"
-                 Text="Колличество"
+                 Text="Количество"
                  FontSize="15"
                  Style="{StaticResource TextBoxBrown}"/>
 
-        <Border Grid.Row="4"
+        <Border Grid.Row="5"
                 BorderBrush="White"
                 BorderThickness="0 1 0 0">
             <TextBlock Text="Описание" 
@@ -91,7 +127,7 @@
                        Foreground="White"/>
         </Border>
 
-        <Border Grid.Row="4" 
+        <Border Grid.Row="5" 
                 Margin="5 25 10 10" 
                 Background="#FFEDEDED"
                 CornerRadius="10" 
@@ -103,20 +139,19 @@
                           VerticalAlignment="Top"
                           Style="{DynamicResource ScrollViewerStyle1}">
                 <TextBox x:Name="Description" 
-                         Text="Оисание"
+                         Text="Описание"
                          VerticalContentAlignment="Top"
                          TextWrapping="Wrap"
                          FontSize="15"
                          Background="Transparent"
                          Foreground="Black"
-                         Style="{StaticResource TextBoxBrown}"/>
+                         Style="{StaticResource TextBoxBrown}" />
             </ScrollViewer>
         </Border>
 
 
         <Button x:Name="SaveBut" 
-                Grid.Row="5" 
-                Click="SaveBut_Click" 
+                Grid.Row="6" 
                 Content="Сохранить"
                 FontSize="20"
                 Margin="10 0 10 5"

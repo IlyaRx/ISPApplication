@@ -51,7 +51,6 @@ namespace ISAuto.View.Pages
 
         }
 
-
         private void FullCatalog(bool orderby = false, string text = null)
         {
             MainList.Children.Clear();
@@ -61,9 +60,11 @@ namespace ISAuto.View.Pages
             {
                 if (_flagIsParam)
                 {
-                    DatabaseAutoContext.GetContext().PartsInStores.Include(p => p.AutoPart).Include(p => p.AutoPart.Manufacturer)
-                                                       .Where(p => p.AutoPart.TypeId == _typeId && p.Quantity > 0).OrderBy(p => p.AutoPart.Name).ToList()
-                                                       .ForEach(p => parts.Add(p));
+                    DatabaseAutoContext.GetContext().PartsInStores.Include(p => p.AutoPart)
+                                                                  .Include(p => p.AutoPart.Manufacturer)
+                                                                  .Include(p => p.AutoPart.Type)
+                                                                  .Where(p => p.AutoPart.TypeId == _typeId && p.Quantity > 0).OrderBy(p => p.AutoPart.Name).ToList()
+                                                                  .ForEach(p => parts.Add(p));
 
                     if (orderby)
                         parts = parts.OrderByDescending(p => p.AutoPart.Name).ToList();
@@ -71,9 +72,11 @@ namespace ISAuto.View.Pages
                 else
                 {
 
-                    DatabaseAutoContext.GetContext().PartsInStores.Include(p => p.AutoPart).Include(p => p.AutoPart.Manufacturer)
-                                                       .OrderBy(p => p.Quantity).ToList()
-                                                       .ForEach(p => parts.Add(p));
+                    DatabaseAutoContext.GetContext().PartsInStores.Include(p => p.AutoPart)
+                                                                  .Include(p => p.AutoPart.Type)
+                                                                  .Include(p => p.AutoPart.Manufacturer)
+                                                                  .OrderBy(p => p.AutoPart.Name).ToList()
+                                                                  .ForEach(p => parts.Add(p));
 
                     if (orderby)
                         parts = parts.OrderByDescending(p => p.Quantity).ToList();
@@ -102,7 +105,6 @@ namespace ISAuto.View.Pages
         private void OrByRad_Checked(object sender, RoutedEventArgs e)
         {
             if (_flagInit)
-
                 FullCatalog(!(bool)OrByRad.IsChecked, TextBoxPoisk.Text);
         }
 

@@ -41,7 +41,7 @@
 
                     <TextBlock x:Name="Cost" Text="1000 ₽"        FontSize="18" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="0" FontWeight="Medium"/>
                     <TextBlock x:Name="Number" Text="123"      FontSize="17" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="1"/>
-                    <TextBlock Text="ООО Название компании" FontSize="17" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="2"/>
+                    <TextBlock Text="Запчасти из Рая" FontSize="17" VerticalAlignment="Center" HorizontalAlignment="Right" Grid.Column="1" Grid.Row="2"/>
                 </Grid>
             </Border>
 

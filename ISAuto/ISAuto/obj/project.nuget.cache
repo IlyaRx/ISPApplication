@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "S4iEUW2my+U+7UlvSzJ+Vel2mTF6AkzeDaSGCSrhspk5a9a7fDPnLGiMUSsopD4wQ6nEF+p05A0SkdhSDobPMQ==",
+  "dgSpecHash": "nXOEOoZX9pkuO7xRQOoRtObIJFXFlvK2Dikm5b0pA9yS+z2sdnHCwVTgUFkqU5mZefsGVRfD8em2IW7XFBDcLQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\ilyac\\Desktop\\Git\\ISPApplication\\ISAuto\\ISAuto\\ISAuto.csproj",
+  "projectFilePath": "C:\\Users\\ilyac\\OneDrive\\Документы\\GitHub\\ISPApplication\\ISAuto\\ISAuto\\ISAuto.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\ilyac\\.nuget\\packages\\azure.core\\1.35.0\\azure.core.1.35.0.nupkg.sha512",
     "C:\\Users\\ilyac\\.nuget\\packages\\azure.identity\\1.10.3\\azure.identity.1.10.3.nupkg.sha512",

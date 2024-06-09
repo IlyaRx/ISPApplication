@@ -1,4 +1,5 @@
-﻿using ISAuto.View.Pages;
+﻿using ISAuto.Model;
+using ISAuto.View.Pages;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -40,6 +41,16 @@ namespace ISAuto.View.Windows
             main.Show();
             _flag = false;
             this.Close();
+        }
+
+        public void Update(object obj = null) { 
+            CatalogFrame.Content = new AutoPartsPage();
+        } 
+        private void Button_Click(object sender, RoutedEventArgs e)
+        {
+            EditPart infoClientWindow = new EditPart();
+            infoClientWindow.update += Update;
+            infoClientWindow.ShowDialog();
         }
     }
 }

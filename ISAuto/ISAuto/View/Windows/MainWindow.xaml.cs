@@ -5,6 +5,7 @@ using System.Windows;
 using System.Windows.Controls;
 using System.Windows.Data;
 using System.Windows.Documents;
+using System.Windows.Forms;
 using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
@@ -25,25 +26,41 @@ namespace ISAuto.View.Windows
 
         private void LogInGuest_Click(object sender, RoutedEventArgs e)
         {
-            ClientWindow client = new ClientWindow();
-            client.Show();
-            this.Hide();
+            try
+            {
+                ClientWindow client = new ClientWindow();
+                client.Show();
+                this.Hide();
+
+            }catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Возникли проблемы с соединением", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
+            }
         }
 
         private void Enter_Click(object sender, RoutedEventArgs e)
         {
-            AdminWindow adminWindow = new AdminWindow();
-            adminWindow.Show();
-            this.Hide();
-            return;
-
-
-            Employee employee = DatabaseAutoContext.GetContext().Employees.FirstOrDefault(e => e.Login == Login.Text && e.Password == PasswordPlant.Password);
-            if (employee == null)
+            try
             {
-                MessageBox.Show("Введён не верный логин или пароль!");
-                PasswordPlant.Password = "";
-                Login.Text = "";
+                AdminWindow adminWindow = new AdminWindow();
+                adminWindow.Show();
+                this.Hide();
+                return;
+
+
+                Employee employee = DatabaseAutoContext.GetContext().Employees.FirstOrDefault(e => e.Login == Login.Text && e.Password == PasswordPlant.Password);
+                if (employee == null)
+                {
+                    System.Windows.Forms.MessageBox.Show("Введён не верный логин или пароль!");
+                    PasswordPlant.Password = "";
+                    Login.Text = "";
+                }
+
+            }catch (Exception ex)
+            {
+                System.Windows.Forms.MessageBox.Show("Возникли проблемы с соединением", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
+                return;
             }
             
         }

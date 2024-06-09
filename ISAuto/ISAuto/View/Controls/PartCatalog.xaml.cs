@@ -15,8 +15,7 @@ using System.Windows.Input;
 using System.Windows.Media;
 using System.Windows.Media.Imaging;
 using System.Windows.Navigation;
-using System.Windows.Shapes;
-
+using System.IO;
 namespace ISAuto.View.Controls
 {
     /// <summary>
@@ -41,7 +40,7 @@ namespace ISAuto.View.Controls
             {
                 BitmapImage bitmap = new BitmapImage();
                 bitmap.BeginInit();
-                bitmap.UriSource = new Uri(autoPart.Image, UriKind.Absolute);
+                bitmap.UriSource = new Uri(Path.GetFullPath(autoPart.Image), UriKind.Absolute);
                 bitmap.EndInit();
                 ImageAutoPart.Source = bitmap;
             }

@@ -17,7 +17,7 @@
 
         <TextBlock Style="{StaticResource textBlockLightGoldTitle}" 
                    VerticalAlignment="Center"
-                   Text="Карзина"/>
+                   Text="Корзина"/>
 
         <ScrollViewer Style="{DynamicResource ScrollViewerStyle1}" Grid.Row="1">
             <StackPanel  x:Name="MainList"/>

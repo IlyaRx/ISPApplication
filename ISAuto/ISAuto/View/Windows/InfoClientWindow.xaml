@@ -92,9 +92,10 @@
                           VerticalAlignment="Top"
                           Style="{DynamicResource ScrollViewerStyle1}">
                 <TextBlock x:Name="Description" 
-                           Text="Оисание"
+                           Text="Описание"
                            VerticalAlignment="Top"
                            TextWrapping="Wrap"
+                           Margin="5"
                            Style="{StaticResource textBlockForm}"/>
             </ScrollViewer>
         </Border>
