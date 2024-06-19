@@ -70,7 +70,7 @@
                     x:Name="AddCart"
                     Margin="10"
                     Padding="5"
-                    Content="В карзину" Click="AddCart_Click" />
+                    Content="В корзину" Click="AddCart_Click" />
 
                     </Grid>
 

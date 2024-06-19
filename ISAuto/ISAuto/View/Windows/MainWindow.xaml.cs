@@ -24,7 +24,8 @@ namespace ISAuto.View.Windows
             InitializeComponent();
         }
 
-        private void LogInGuest_Click(object sender, RoutedEventArgs e)
+        private void LogInGuest_Click(object sender, RoutedEventArgs e) => LogGuest();
+        private void LogGuest()
         {
             try
             {
@@ -32,14 +33,16 @@ namespace ISAuto.View.Windows
                 client.Show();
                 this.Hide();
 
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 System.Windows.Forms.MessageBox.Show("Возникли проблемы с соединением", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
         }
+        private void Enter_Click(object sender, RoutedEventArgs e) => LogAdmin();
 
-        private void Enter_Click(object sender, RoutedEventArgs e)
+        private void LogAdmin()
         {
             try
             {
@@ -60,12 +63,12 @@ namespace ISAuto.View.Windows
                     return;
                 }
 
-            }catch (Exception ex)
+            }
+            catch (Exception ex)
             {
                 System.Windows.Forms.MessageBox.Show("Возникли проблемы с соединением", "Сообщение", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 return;
             }
-            
         }
 
         private void PasswordPlant_PasswordChanged(object sender, RoutedEventArgs e)
@@ -80,6 +83,15 @@ namespace ISAuto.View.Windows
             System.Windows.Application.Current.Shutdown();
         }
 
-       
+        private void Window_KeyDown(object sender, System.Windows.Input.KeyEventArgs e)
+        {
+            if (e.Key == Key.Enter)
+            {
+                if (Login.Text.Length != 0)
+                    LogAdmin();
+                else
+                    LogGuest();
+            }
+        }
     }
 }
